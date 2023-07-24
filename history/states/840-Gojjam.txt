@@ -17,12 +17,8 @@ state = {
 			13242 2 
 		}
 		
-		owner = ---
-
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
-		}
+		owner = AOI
+		add_core_of = AOI
 	}
 
 	provinces = {

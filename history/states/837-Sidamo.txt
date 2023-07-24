@@ -9,6 +9,8 @@ state = {
 	state_category = rural
 
 	history = {
+		owner = AOI
+		add_core_of = AOI
 		
 		buildings = {
 			# infrastructure = 1
@@ -24,12 +26,6 @@ state = {
 			13247 1 
 		}
 		
-		owner = ---
-
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
-		}
 	}
 
 	provinces = {

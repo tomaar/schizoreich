@@ -9,6 +9,8 @@ state = {
 	state_category = pastoral
 
 	history = {
+		owner = AOI
+		add_core_of = AOI
 		
 		buildings = {
 			# infrastructure = 1
@@ -20,13 +22,6 @@ state = {
 		# Jiren (add VPs to this if creating the Jimma Sultanate)
 		victory_points = { 
 			7912 1  
-		}
-		
-		owner = ---
-
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
 		}
 	}
 

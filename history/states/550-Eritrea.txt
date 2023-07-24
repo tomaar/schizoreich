@@ -10,7 +10,8 @@ state=
 	state_category = rural
 	
 	history={
-		owner = ---
+		owner = AOI
+		add_core_of = AOI
 		victory_points = { #Massaua
 			12766 1
 		}

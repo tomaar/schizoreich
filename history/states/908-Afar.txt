@@ -3,6 +3,8 @@ state = {
 	name = "STATE_908"
 
 	history = {
+		owner = AOI
+		add_core_of = AOI
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -10,13 +12,6 @@ state = {
 		victory_points = {
 			13240 2 
 		}
-		owner = ---
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
-
-		}
-
 	}
 
 	provinces = {

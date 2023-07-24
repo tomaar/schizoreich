@@ -4,17 +4,13 @@ state={
 	name="STATE_843"
 
 	history={
+		owner = AOI
+		add_core_of = AOI
 		buildings = {
 
 		}
 		victory_points = {
 			5097 1 
-		}
-		owner = ---
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
-
 		}
 
 	}

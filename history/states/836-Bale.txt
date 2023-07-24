@@ -8,6 +8,8 @@ state = {
 	state_category = pastoral
 
 	history = {
+		owner = AOI
+		add_core_of = AOI
 		
 		buildings = {
 			# infrastructure = 1
@@ -17,12 +19,6 @@ state = {
 			10775 1
 		}
 		
-		owner = ---
-
-		1936.6.1 = {
-			owner = ---
-			controller = ITA
-		}
 	}
 
 	provinces = {

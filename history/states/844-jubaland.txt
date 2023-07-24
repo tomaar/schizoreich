@@ -6,7 +6,8 @@ state = {
 	state_category = pastoral
 	
 	history = {
-		owner = ---
+		owner = AOI
+		add_core_of = AOI
 		victory_points = {
 		 	12941 1 
 		}
