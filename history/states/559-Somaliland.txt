@@ -11,7 +11,6 @@ state=
 	
 	history={
 		owner = ---
-		add_core_of = SOM
 		victory_points = {
 			12991 3 
 		}

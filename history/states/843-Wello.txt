@@ -11,8 +11,6 @@ state={
 			5097 1 
 		}
 		owner = ---
-		add_core_of = ETH
-		add_core_of = AFA
 		1936.6.1 = {
 			owner = ---
 			controller = ITA

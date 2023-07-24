@@ -9,7 +9,6 @@ state=
 	history=
 	{
 		owner = ---
-		add_core_of = SWE
 		buildings = {
 			infrastructure = 3 #was: 6
 			408 = {

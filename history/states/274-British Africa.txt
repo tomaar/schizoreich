@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = ---
-		add_core_of = GHA
 		victory_points = {
 			10862 1 
 		}

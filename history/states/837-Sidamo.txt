@@ -25,9 +25,6 @@ state = {
 		}
 		
 		owner = ---
-		add_core_of = ETH
-		add_core_of = SID
-		add_core_of = ORO
 
 		1936.6.1 = {
 			owner = ---

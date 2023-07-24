@@ -7,7 +7,6 @@ state={
 
 	history={
 		owner = ---
-		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
 
