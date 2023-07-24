@@ -10,9 +10,8 @@ state={
 	}
 
 	history={
-		owner = ---
-		#victory_points = { 6529 1 }
-		#victory_points = { 549 1 }
+		owner = BAY
+		add_core_of = BAY
 		victory_points = { 678 5 }
 		victory_points = { 9503 5 }
 		victory_points = { 9559 10 }
@@ -50,12 +49,6 @@ state={
 			anti_air_building = 5
 			air_base = 5
 
-		}
-		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
 		}
 	}
 

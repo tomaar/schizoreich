@@ -5,7 +5,8 @@ state={
 		tungsten=10.000 #added due to Portugal Setup
 	}
 	history={
-		owner = ---
+		owner = SPR
+		add_core_of = SPR
 		victory_points = {
 			11825 3 
 		}
@@ -14,7 +15,6 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SPR
 
 	}
 

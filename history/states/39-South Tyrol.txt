@@ -11,17 +11,15 @@ state = {
 	}
 
 	history = {
+		owner = AUS
+		add_core_of = AUS
 		victory_points = { #Bolzano
 			11598 1
 		}
-		owner = ---
 		buildings = {
 			infrastructure = 2 # was 3 before split
 			industrial_complex = 1 #Bolzano's industrial zone started in 1934-35 (Steel meels, Lancia...)
 		}
-		add_core_of = ITA
-		add_core_of = LBV
-		add_claim_by = AUS
 	}
 
 	provinces = {
