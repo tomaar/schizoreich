@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = FIN
+		owner = ---
 		victory_points = {
 			3174 1 #Voru
 		}

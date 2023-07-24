@@ -10,7 +10,7 @@ state=
 	state_category = town
 
 	history = {
-		owner = AOI
+		owner = ---
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -29,7 +29,7 @@ state=
 		add_core_of = ORO
 
 		1936.6.1 = {
-			owner = ITA
+			owner = ---
 			controller = ITA
 		}
 	}

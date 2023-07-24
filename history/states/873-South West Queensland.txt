@@ -5,11 +5,11 @@ state={
 		2116 2221 5198 10941 12949 
 	}
 	history = {
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 1
 		}
-		owner = AST
-		add_core_of = AST
 	}
 	state_category = pastoral
 	manpower=10000

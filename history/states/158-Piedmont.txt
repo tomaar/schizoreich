@@ -14,6 +14,7 @@ state = {
 
 	history = {
 		owner = ITA
+		add_core_of = ITA
 		victory_points = {
 			6788 10 
 		}
@@ -28,15 +29,6 @@ state = {
 			air_base = 8
 			6788 = {
 				naval_base = 8
-			}
-		}
-		add_core_of = ITA
-		add_core_of = SPM
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 10
-				industrial_complex = 2
-				dockyard = 3
 			}
 		}
 	}

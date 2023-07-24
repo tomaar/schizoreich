@@ -15,7 +15,7 @@ state={
 			6115 15 
 		}
 		
-		owner = NOR
+		owner = ---
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

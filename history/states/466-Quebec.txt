@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = CAN
+		owner = ---
 		buildings = {
 			infrastructure = 1
 			3691 = {

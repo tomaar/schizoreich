@@ -22,12 +22,12 @@ state = {
 			7912 1  
 		}
 		
-		owner = AOI
+		owner = ---
 		add_core_of = ETH
 		add_core_of = GBA
 
 		1936.6.1 = {
-			owner = ITA
+			owner = ---
 			controller = ITA
 		}
 	}

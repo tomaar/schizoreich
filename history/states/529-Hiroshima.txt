@@ -7,7 +7,7 @@ state={
 
 	history={
 		owner = JAP
-		add_core_of = JAP
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 4 #was: 7
 			air_base = 3

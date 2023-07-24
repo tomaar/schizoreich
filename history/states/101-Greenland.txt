@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		owner = ---
 		buildings = {
 			infrastructure = 1
 			12512 ={
