@@ -5,12 +5,11 @@ state={
 	
 	state_category = city
 	history={
-		owner = ---
+		owner = PRE
+		add_core_of = PRE
 		victory_points = {
 			362 10
 		}
-		
-		set_demilitarized_zone = yes
 		
 		buildings = {
 			infrastructure = 3
@@ -21,8 +20,6 @@ state={
 				naval_base = 5
 			}
 		}
-		1938.3.12 = {
-			}
 	}
 
 	provinces={

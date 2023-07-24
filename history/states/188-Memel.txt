@@ -8,10 +8,11 @@ state=
 	state_category = rural
 	
 	history = {
+		owner = PRE
+		add_core_of = PRE
 		victory_points = {
 			3288 3
 		}
-		owner = ---
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

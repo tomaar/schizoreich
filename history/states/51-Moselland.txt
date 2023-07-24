@@ -11,7 +11,8 @@ state={
 	state_category = metropolis
 	
 	history={
-		owner = ---
+		owner = PRE
+		add_core_of = PRE
 		victory_points = {
 			6469 10 
 		}
@@ -31,15 +32,6 @@ state={
 			air_base = 3
 
 		}
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 6
-				radar_station = 1
-			}
-		}
-	
-		set_demilitarized_zone = yes
 	
 	
 		1936.3.7 = {

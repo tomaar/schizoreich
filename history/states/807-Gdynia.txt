@@ -6,7 +6,8 @@ state={
 	
 	state_category = city
 	history={
-		owner = ---
+		owner = PRE
+		add_core_of = PRE
 		victory_points = {
 			9263 5
 		}
@@ -25,8 +26,6 @@ state={
 				naval_base = 1
 			}
 		}
-		1938.3.12 = {
-			}
 	}
 
 	provinces={
