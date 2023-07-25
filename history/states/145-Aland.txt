@@ -8,7 +8,8 @@ state=
 	
 	history=
 	{
-		owner = ---
+		owner = FIN
+		add_core_of = FIN
 		buildings = {
 			infrastructure = 3 #was: 5
 			9228 = {
