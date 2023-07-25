@@ -1,10 +1,23 @@
+
 state={
 	id=931
 	name="STATE_931"
-	provinces={
-		2205 8206 12906 13131 13172 
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+
 	}
-	manpower=0
+
+	provinces={
+		2205 8206 12906 13131 13171 13172 
+	}
+	manpower=3248150
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
 }

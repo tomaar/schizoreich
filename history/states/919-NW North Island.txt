@@ -2,10 +2,18 @@
 state={
 	id=919
 	name="STATE_919"
+	manpower = 3248150 
+	state_category = large_city
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
 	provinces={
 		1565 4543 4615 7887 10334 10373 12362 12664 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
