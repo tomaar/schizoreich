@@ -11,7 +11,8 @@ state={
 	state_category = pastoral
 
 	history = {
-		owner = ---
+		owner = MAN
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 2
 			air_base = 2

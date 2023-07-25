@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = KAR
+		add_core_of = KAR
 		buildings = {
 			infrastructure = 2
 
