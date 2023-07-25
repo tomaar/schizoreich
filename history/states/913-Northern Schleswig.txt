@@ -1,0 +1,18 @@
+state={
+	id=913
+	name="STATE_913"
+	manpower = 3248150 
+	state_category = large_city
+	history={
+		owner = PRE
+		add_core_of = PRE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		332 11251 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

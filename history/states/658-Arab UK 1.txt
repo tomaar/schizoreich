@@ -11,7 +11,8 @@ state={
 
 
 	history={
-		owner = ---
+		owner = SAU
+		add_core_of = SAU
 		victory_points = {
 			7960 1 
 		}
