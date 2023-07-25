@@ -1,19 +1,23 @@
+
 state={
 	id=870
 	name="STATE_870"
-	provinces={
-		2201 5207 8152 8209 8247 10937 10958 11016 12993 13133 
-	}
-	history = {
+
+	history={
 		owner = USA
 		add_core_of = USA
 		buildings = {
 			infrastructure = 1
-		}
-	}
-	state_category = wasteland
-	manpower=1000
 
+		}
+
+	}
+
+	provinces={
+		2201 5207 8209 8247 10937 10958 11016 13133 
+	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }
