@@ -241,7 +241,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.15
 	}
 	
-totalist = {
+	totalist = {
 		types = {
 		}
 		color = { 127 0 0 }
@@ -260,30 +260,6 @@ totalist = {
 			army_intel_to_others = 7.5
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
-		}
-		ai_neutral = yes
-		can_be_boosted = no
-	}
-
-	syndicalist = {
-		types = {
-		}
-		color = { 255 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_create_factions = no
-			can_send_volunteers = yes
-		}
-		can_host_government_in_exile = yes
-		modifiers = {
-			generate_wargoal_tension = 0.5
-			guarantee_tension = 0.5
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -465,6 +441,30 @@ totalist = {
 		types = {
 		}
 		color = { 142 57 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	futurist = {
+		types = {
+		}
+		color = { 200 0 200 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
