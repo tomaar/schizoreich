@@ -167,10 +167,16 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
-	totalist
-	radic
+	totalist = 3
+	radical_socialist = 5
+	social_democrat = 20
+	social_liberal = 20
+	market_liberal = 15
+	social_conservative = 20
+	authoritarian_democrat = 10
+	paternal_autocrat = 5
+	national_populist = 3
+	futurist = 0
 }
 
 add_ideas = {
