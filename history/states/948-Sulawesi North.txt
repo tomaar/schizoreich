@@ -1,0 +1,18 @@
+state={
+	id=948
+	name="STATE_948"
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=314300
+	state_category = large_city
+	provinces={
+		1098 1289 4262 4307 7311 10153 10169 10197 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

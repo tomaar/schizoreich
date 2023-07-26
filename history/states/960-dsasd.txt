@@ -1,0 +1,18 @@
+state={
+	id=960
+	name="STATE_960"
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=455604
+	state_category = large_city
+	provinces={
+		1345 1373 1533 4364 4381 7368 7440 10194 10294 12268 12415 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

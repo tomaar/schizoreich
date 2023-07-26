@@ -1,0 +1,23 @@
+
+state={
+	id=944
+	name="STATE_944"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1222 1242 4289 4317 4329 4346 4418 7305 7333 7349 7362 7378 7409 10231 10248 10260 10974 12135 12995 
+	}
+	manpower=314300
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

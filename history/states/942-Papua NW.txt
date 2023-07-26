@@ -1,27 +1,23 @@
 
 state={
-	id=721
-	name="STATE_721"
+	id=942
+	name="STATE_942"
 
 	history={
 		owner = USA
 		add_core_of = USA
 		buildings = {
-			infrastructure = 2
-			12190 = {
-				naval_base = 1
-
-			}
+			infrastructure = 1
 
 		}
 
 	}
 
 	provinces={
-		1326 12178 12190 13001 
+		1546 4509 4552 7529 7542 10369 10396 12371 
 	}
-	manpower=455604
+	manpower=314300
+	state_category = large_city
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

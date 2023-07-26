@@ -1,0 +1,18 @@
+state={
+	id=959
+	name="STATE_959"
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=455604
+	state_category = large_city
+	provinces={
+		7654 10479 12472 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
