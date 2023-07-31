@@ -3,7 +3,8 @@ state={
 	name="STATE_230"
 
 	history={
-		owner = ---
+		owner = ARM
+		add_core_of = ARM
 		victory_points = {
 			12320 3
 		}

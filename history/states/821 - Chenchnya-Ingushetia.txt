@@ -11,7 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = ---
+		owner = CIN
+		add_core_of = CIN
 		buildings = {
 			infrastructure = 2
 		}

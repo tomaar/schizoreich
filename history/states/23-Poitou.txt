@@ -23,8 +23,6 @@ state={
 				naval_base = 3
 			}
 		}
-		owner = FRA
-		add_core_of = FRA
 	}
 
 	provinces={

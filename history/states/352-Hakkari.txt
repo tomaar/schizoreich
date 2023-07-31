@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = ---
+		owner = KUR
+		add_core_of = KUR
 		victory_points = {
 			12476 1 
 		}
@@ -20,16 +21,6 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-				}
 	}
 
 	provinces={

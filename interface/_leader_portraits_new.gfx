@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	### GER
+	
+    spriteType = {
+        name = GFX_portrait_USA_huey_long
+        texturefile = gfx/leaders/USA/Portrait_USA_Huey_Long.dds
+    }
+
+    spriteType = {
+        name = GFX_portrait_USA_stalinus
+        texturefile = gfx/leaders/USA/Portrait_USA_Stalinus.dds
+    }
+	
+}

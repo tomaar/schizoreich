@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ---
+		owner = GEO
+		add_core_of = GEO
 		buildings = {
 			infrastructure = 2
 

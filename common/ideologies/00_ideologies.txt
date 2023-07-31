@@ -243,6 +243,8 @@ ideologies = {
 	
 	totalist = {
 		types = {
+			communism = {
+			}
 		}
 		color = { 127 0 0 }
 		rules = {
@@ -267,6 +269,8 @@ ideologies = {
 
 	radical_socialist = {
 		types = {
+			bukharinism = {
+			}
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -291,6 +295,8 @@ ideologies = {
 
 	social_democrat = {
 		types = {
+			longism = {
+			}
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -316,6 +322,8 @@ ideologies = {
 
 	social_liberal = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 255 170 0 }
 		rules = {
@@ -341,6 +349,8 @@ ideologies = {
 
 	market_liberal = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 255 216 0 }
 		rules = {
@@ -366,6 +376,8 @@ ideologies = {
 
 	social_conservative = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 0 0 255 }
 		rules = {
@@ -391,6 +403,8 @@ ideologies = {
 
 	authoritarian_democrat = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 110 110 110 }
 		rules = {
@@ -415,6 +429,8 @@ ideologies = {
 
 	paternal_autocrat = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 45 45 45 }
 		rules = {
@@ -439,6 +455,8 @@ ideologies = {
 
 	national_populist = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 142 57 0 }
 		rules = {
@@ -463,6 +481,8 @@ ideologies = {
 
 	futurist = {
 		types = {
+			sub1 = {
+			}
 		}
 		color = { 200 0 200 }
 		rules = {

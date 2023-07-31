@@ -7,7 +7,8 @@ state=
 	state_category = small_island
 	
 	history = {
-		owner = ---
+		owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			10007 1 
 		}

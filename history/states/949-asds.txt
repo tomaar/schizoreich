@@ -2,7 +2,8 @@ state={
 	id=949
 	name="STATE_949"
 	history={
-		owner = ---
+		owner = ELS
+		add_core_of = ELS
 		buildings = {
 			infrastructure = 1
 
