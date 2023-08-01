@@ -887,3 +887,7 @@ UBD = {
 	color = rgb { 60 60 100 }
 	color_ui = rgb { 60 60 100 }
 }
+CEL = {
+	color = rgb { 210 220 90 }
+	color_ui = rgb { 210 220 90 }
+}

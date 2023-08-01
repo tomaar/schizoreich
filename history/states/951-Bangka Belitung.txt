@@ -2,7 +2,8 @@ state={
 	id=951
 	name="STATE_951"
 	history={
-		owner = ---
+		owner = PUE
+		add_core_of = PUE
 		buildings = {
 			infrastructure = 1
 
