@@ -10,7 +10,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ---
+		owner = UBD
+		add_core_of = UBD
 		victory_points = {
 			10493 1 #Valmiera
 		}

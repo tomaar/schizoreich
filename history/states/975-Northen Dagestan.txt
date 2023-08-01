@@ -1,0 +1,20 @@
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		3668 3682 6701 
+	}
+	history={
+		owner = DAG
+		add_core_of = DAG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=411798
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

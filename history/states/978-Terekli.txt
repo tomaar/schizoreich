@@ -1,0 +1,19 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		683 700 712 728 6730 6748 11632 
+	}
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=411798
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

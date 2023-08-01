@@ -10,7 +10,7 @@ state = {
 	state_category = town
 
 	history={
-		owner = JAP
+		owner = VLA
 		add_core_of = VLA
 		victory_points = {
 			957 15

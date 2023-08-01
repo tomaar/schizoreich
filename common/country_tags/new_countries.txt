@@ -1,0 +1,2 @@
+HEJ = "countries/Hejaz.txt"
+UBD = "countries/UBD.txt"

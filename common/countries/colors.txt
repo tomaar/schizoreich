@@ -883,3 +883,7 @@ HEJ = {
 	color = rgb { 20 153 84 }
 	color_ui = rgb { 20 153 84 }
 }
+UBD = {
+	color = rgb { 60 60 100 }
+	color_ui = rgb { 60 60 100 }
+}

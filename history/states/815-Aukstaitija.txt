@@ -4,7 +4,8 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = ---
+		owner = UBD
+		add_core_of = UBD
 		victory_points = {
 			6229 1 #Panevezys
 		}

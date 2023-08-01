@@ -1,0 +1,19 @@
+state={
+	id=977
+	name="STATE_977"
+	provinces={
+		4979 8022 8106 10139 10173 
+	}
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=411798
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
