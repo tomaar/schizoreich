@@ -12,6 +12,8 @@ state={
 	}
 
 	history={
+		owner = EPI
+		add_core_of = EPI
 		victory_points = {
 			10203 1
 		}
@@ -21,7 +23,6 @@ state={
 		victory_points = {
 			1205 1
 		}
-		owner = ---
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

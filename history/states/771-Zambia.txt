@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = SFR
+		add_core_of = SFR
 		victory_points = {
 			5199 1
 		}

@@ -6,7 +6,8 @@ state={
 	state_category=rural
 
 	history={
-		owner = ---
+		owner = MIT
+		add_core_of = MIT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

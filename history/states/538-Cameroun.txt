@@ -9,7 +9,8 @@ state={
 	manpower = 1693974
 
 	history={
-		owner = ---
+		owner = MIT
+		add_core_of = MIT
 		buildings = {
 			infrastructure = 1
 

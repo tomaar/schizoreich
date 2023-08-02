@@ -9,7 +9,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = SFR
+		add_core_of = SFR
 		buildings = {
 			infrastructure = 1
 		}

@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = VNL
+		add_core_of = VNL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

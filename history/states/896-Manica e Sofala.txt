@@ -4,7 +4,8 @@ state={
 	manpower = 188600
 	state_category = pastoral
 	history={
-		owner = ---
+		owner = SFR
+		add_core_of = SFR
 		buildings = {
 			infrastructure = 2
 

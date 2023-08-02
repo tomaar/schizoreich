@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = VNL
+		add_core_of = VNL
 		buildings = {
 			infrastructure = 1
 			3691 = {

@@ -9,7 +9,8 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = ---
+		owner = EPI
+		add_core_of = EPI
 		victory_points = {
 			914 1
 		}

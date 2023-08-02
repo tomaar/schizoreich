@@ -3,7 +3,8 @@ state={
 	name="STATE_274"
 
 	history={
-		owner = ---
+		owner = DAF
+		add_core_of = DAF
 		victory_points = {
 			10862 1 
 		}
