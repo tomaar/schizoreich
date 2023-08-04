@@ -1,0 +1,14 @@
+state={
+	id=990
+	name="STATE_990"
+	provinces={
+		7455 10349 
+	}
+	history = {
+		owner = ---
+	}
+	manpower = 2781971
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

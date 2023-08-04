@@ -5,8 +5,7 @@ state={
 		3668 3682 6701 
 	}
 	history={
-		owner = DAG
-		add_core_of = DAG
+		owner = ---
 		buildings = {
 			infrastructure = 2
 

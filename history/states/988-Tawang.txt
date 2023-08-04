@@ -1,0 +1,14 @@
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		1116 10810 12730 
+	}
+	history = {
+		owner = ---
+	}
+	manpower = 2781971
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

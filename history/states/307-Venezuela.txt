@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = ---
+		owner = VEN
+		add_core_of = VEN
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

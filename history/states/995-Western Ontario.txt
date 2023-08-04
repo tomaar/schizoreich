@@ -1,0 +1,17 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		763 1769 3736 4775 4875 7899 11571 13094 13161 
+	}
+	history={
+		owner = ---
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

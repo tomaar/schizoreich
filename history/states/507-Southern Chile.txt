@@ -7,14 +7,15 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ---
+		owner = SAM
+		add_core_of = SAM
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces={
-		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
+		2161 5118 5159 8198 8218 10961 
 	}
 
 	local_supplies=0.0 

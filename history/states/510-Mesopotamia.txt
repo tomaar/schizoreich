@@ -10,7 +10,8 @@ state={
 	state_category = large_town
 
 	history={
-		owner = ---
+		owner = SAM
+		add_core_of = SAM
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 4

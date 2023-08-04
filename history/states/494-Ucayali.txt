@@ -8,7 +8,8 @@ state={
 	
 
 	history={
-		owner = ---
+		owner = SAM
+		add_core_of = SAM
 		buildings = {
 			infrastructure = 2
 		}

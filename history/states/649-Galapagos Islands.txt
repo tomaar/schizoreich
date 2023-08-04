@@ -6,7 +6,8 @@ state=
 	manpower=11532
 	history=
 	{
-		owner = ---
+		owner = VEN
+		add_core_of = VEN
 		buildings = {
 			infrastructure = 1
 			5023 = {
