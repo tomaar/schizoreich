@@ -1,0 +1,18 @@
+state={
+	id=1000
+	name="STATE_1000"
+	provinces={
+		1934 4318 4425 4996 10863 10920 
+	}
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower = 1
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

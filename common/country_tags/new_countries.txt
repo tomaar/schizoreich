@@ -9,3 +9,7 @@ FAF = "countries/Francafrique.txt"
 SFR = "countries/Spanish Africa.txt"
 DAF = "countries/Dutch Africa.txt"
 KAS = "countries/Kashmir.txt"
+LUC = "countries/Lucknow.txt"
+MND = "countries/Mandalay.txt"
+TEN = "countries/Tenasserim.txt"
+

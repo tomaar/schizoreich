@@ -3959,6 +3959,18 @@
  KAS_DEF:0 "Kashmir"
  KAS_ADJ:0 "Kashmiri"
 
+ LUC:0 "Lucknow Free State"
+ LUC_DEF:0 "Lucknow Free State"
+ LUC_ADJ:0 "Lucknowian"
+
+ TEN:0 "Tennesserim"
+ TEN_DEF:0 "Tennesserim"
+ TEN_ADJ:0 "Tennesserimian"
+
+ MND:0 "Mandalay"
+ MND_DEF:0 "Mandalay"
+ MND_ADJ:0 "Mandalayan"
+
 
  HEJ:0 "Hejaz"
 
