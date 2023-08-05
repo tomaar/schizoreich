@@ -5,8 +5,8 @@ state={
 		1934 4318 4425 4996 10863 10920 
 	}
 	history = {
-		owner = BAN
-		add_core_of = BAN
+		owner = YUN
+		add_core_of = YUN
 		buildings = {
 			infrastructure = 2
 		}
