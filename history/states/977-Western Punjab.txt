@@ -5,7 +5,8 @@ state={
 		4979 8022 8106 10139 10173 
 	}
 	history={
-		owner = ---
+		owner = KAS
+		add_core_of = KAS
 		buildings = {
 			infrastructure = 2
 

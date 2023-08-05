@@ -5,7 +5,8 @@ state={
 		1983 7064 8082 
 	}
 	history = {
-		owner = ---
+		owner = NEP
+		add_core_of = NEP
 	}
 	manpower = 2781971
 	state_category = rural

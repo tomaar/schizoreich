@@ -1642,21 +1642,6 @@
  BAH:0 "Bahamas"
  BAH_DEF:0 "the Bahamas"
  BAH_ADJ:0 "Bahamian"
- BAN_fascism:1 "State of Bengal"
- BAN_fascism_DEF:1 "the State of Bengal"
- BAN_democratic:0 "Bangladesh"
- BAN_democratic_DEF:0 "Bangladesh"
- BAN_neutrality:1 "Sultanate of Bangladesh"
- BAN_neutrality_DEF:1 "the Sultanate of Bangladesh"
- BAN_communism:1 "Bengal People's Republic"
- BAN_communism_DEF:1 "the Bengal People's Republic"
- BAN_fascism_ADJ:1 "Bengal"
- BAN_democratic_ADJ:0 "Bangladeshi"
- BAN_neutrality_ADJ:0 "Bangladeshi"
- BAN_communism_ADJ:1 "Bengal"
- BAN:0 "Bangladesh"
- BAN_DEF:0 "Bangladesh"
- BAN_ADJ:0 "Bangladeshi"
  BLZ_fascism:1 "State of Belize"
  BLZ_fascism_DEF:1 "the State of Belize"
  BLZ_democratic:0 "Belize"
@@ -3965,7 +3950,16 @@
  MEX:0 "Mexico"
  MEX_DEF:0 "Mexico"
  MEX_ADJ:0 "Mexican"
-#
+#India Region
+ BAN:0 "Bangladesh"
+ BAN_DEF:0 "Bangladesh"
+ BAN_ADJ:0 "Bangladeshi"
+
+ KAS:0 "Kashmir"
+ KAS_DEF:0 "Kashmir"
+ KAS_ADJ:0 "Kashmiri"
+
+
  HEJ:0 "Hejaz"
 
  UBD:0 "United Baltic Duchy"

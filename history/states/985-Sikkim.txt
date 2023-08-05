@@ -5,7 +5,8 @@ state={
 		4435 12338 
 	}
 	history = {
-		owner = ---
+		owner = BAN
+		add_core_of = BAN
 	}
 	manpower = 2781971
 	state_category = rural
