@@ -202,69 +202,8 @@ on_actions = {
 		}
 	}
 
-	on_leave_faction = {
-		effect = {
-			if = {
-				limit = {
-					has_country_flag = TO_joined_brussels_treaty
-				}
-				clr_country_flag = TO_joined_brussels_treaty
-			}
-			if = {
-				limit = {
-					AND = {
-						tag = CAN
-						NOT = { has_dlc = "Together for Victory" }
-					}
-				}
-				abandon_colony_tag = yes
-			}
-			FROM = {
-				add_opinion_modifier = {
-					modifier = faction_traitor
-					target = ROOT
-					days = 365
-				}
-
-				add_opinion_modifier = {
-					modifier = faction_traitor_trade
-					target = ROOT
-					days = 365
-				}
-			}
-		}
-	}
-
 	#FROM is the one that joins the faction
-	on_create_faction = {
-		effect = {
-			# Sunset invasion check
-			if = {
-				limit = {
-					FROM = { is_puppet = no }
-					OR = {
-						AND = {
-							tag = MEX
-							FROM = {
-								capital_scope = {
-									NOT = { is_on_continent = south_america }
-								}
-							}
-						}
-						AND = {
-							FROM = {
-								tag = MEX
-							}
-							capital_scope = {
-								NOT = { is_on_continent = south_america }
-							}
-						}
-					}
-				}
-				set_country_flag = achievement_failed_sunset_invasion
-			}
-		}
-	}
+	
 
 	#FROM is country getting invited.
 	on_offer_join_faction = {
@@ -3124,30 +3063,6 @@ on_actions = {
 		}
 	}
 
-
-	#ROOT = country that joined a war
-	#Fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first
-	on_war = { 
-		effect = {
-			if = {
-				limit = {
-					tag = USA
-					has_war_with = JAP
-					NOT = { has_global_flag = day_of_infamy_happened }
-					has_country_leader = { character = USA_franklin_delano_roosevelt ruling_only = yes }
-				}
-				play_day_of_infamy_effect = yes
-			}
-			if = {
-				limit = {
-					tag = ENG
-					has_war_with = GER
-					has_country_leader = { character = ENG_neville_chamberlain ruling_only = yes }
-				}
-				play_war_with_germany_effect = yes
-			}
-		}
-	}
 	#ROOT = attacking side
 	#FROM = defending side
 	#fired when two countries end up at war with each other (on_war is fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first)
@@ -3569,14 +3484,6 @@ on_actions = {
 	on_unit_leader_promote_from_ranks_green = { #Unit leader scope, FROM is unit
 		effect = {
 			set_unit_leader_flag = field_promotion_achievement
-		}
-	}
-
-	on_add_history = { #Unit Scope
-		effect = {
-			#add_unit_medal_to_latest_entry = {
-			#	unit_medals = iron_cross_second_class
-			#} #This would add a unit medal to the history entry you just received
 		}
 	}
 
