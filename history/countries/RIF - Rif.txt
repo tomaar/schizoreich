@@ -2,8 +2,7 @@
 
 IF = {
 	limit = {has_dlc = "By Blood Alone"}
-	recruit_character =  RIF_abd_el_krim
-}
+	}
 
 
 # Starting tech
