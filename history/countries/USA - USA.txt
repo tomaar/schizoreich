@@ -156,6 +156,8 @@ give_guarantee = ARG
 give_guarantee = URG
 
 
+recruit_character = USA_huey_long
+
 
 set_convoys = 500
 
