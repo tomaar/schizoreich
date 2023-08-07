@@ -29,22 +29,6 @@ if = {
 
 
 
-
-
-
-
-
-
-#Not available at game start
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-		# 											
-						}
-
-
 #Initialize character flags Part I (aka who's safe)
 SOV_mikhail_kalinin = {
 	set_character_flag = SOV_safe_from_purge_flag
