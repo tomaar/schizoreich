@@ -4,11 +4,9 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "CZE_1936_nsb"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CZE_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1

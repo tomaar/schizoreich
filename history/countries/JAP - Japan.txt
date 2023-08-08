@@ -33,7 +33,6 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
-	set_oob = "JAP_1936_nsb"
 }
 if = {
 	limit = {
@@ -64,12 +63,10 @@ if = {
 		cruiser_submarines = 1
 		basic_dp_light_battery = 1
 	}
-	set_naval_oob = "JAP_1936_naval"
 }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "JAP_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1

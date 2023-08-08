@@ -4,7 +4,6 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "ITA_1936_nsb"
 }
 
 starting_train_buffer = 1.5
@@ -77,12 +76,10 @@ if = {
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "ITA_1936_naval_mtg"
 }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ITA_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			early_bombs = 1

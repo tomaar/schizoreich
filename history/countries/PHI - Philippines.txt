@@ -1,7 +1,6 @@
 ﻿capital = 327
 
 oob = "PHI_1936"
-set_air_oob = "PHI_1936_air_bba"
 
 # Starting tech
 set_technology = {

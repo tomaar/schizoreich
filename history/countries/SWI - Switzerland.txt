@@ -2,8 +2,6 @@
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_oob = "SWI_1936_BBA"
-		set_air_oob = "SWI_1936_air_bba"
 }
 
 set_research_slots = 3

@@ -3,11 +3,9 @@
 oob = "HOL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "HOL_1936_naval_mtg"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "HOL_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1

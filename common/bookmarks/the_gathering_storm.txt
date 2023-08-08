@@ -19,7 +19,7 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 		}
-		"GER"={
+		"PRE"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
 		}
@@ -32,7 +32,7 @@ bookmarks = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism		
 		}
-		"SOV"={
+		"BAY"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 		}

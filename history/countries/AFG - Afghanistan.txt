@@ -4,7 +4,6 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "AFG_1936_nsb"
 }
 
 set_technology = {

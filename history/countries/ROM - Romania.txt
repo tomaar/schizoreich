@@ -4,22 +4,18 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "ROM_1936_nsb"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ROM_1936_naval_mtg"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ROM_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
 		}
 	else = {
-		set_air_oob = "ROM_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 

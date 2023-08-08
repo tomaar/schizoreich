@@ -3,7 +3,6 @@
 oob = "HUN_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "HUN_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			engines_1 = 1

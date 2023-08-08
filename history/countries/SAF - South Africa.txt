@@ -3,7 +3,6 @@
 oob = "SAF_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SAF_1936_air_bba"
 }
 
 set_stability = 0.6

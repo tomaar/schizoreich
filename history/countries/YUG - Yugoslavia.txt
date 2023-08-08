@@ -4,15 +4,12 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "YUG_1936_nsb"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "YUG_1936_naval_mtg"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "YUG_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			basic_small_airframe = 1
