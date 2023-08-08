@@ -14,9 +14,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_naval_oob = "ENG_1936_Naval"
-	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
-	}
 }
 
 if = {
@@ -148,50 +145,6 @@ set_politics = {
 set_popularities = {
 	social_democrat = 100
 }
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Nancy Wake"
-		GFX = GFX_portrait_nancy_wake
-		traits = { operative_escape_artist }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ENG }
-	}
-
-	create_operative_leader = {
-		name = "Diana Rowden"
-		GFX = GFX_portrait_diana_rowden
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ENG }
-	}
-
-	create_operative_leader = {
-		name = "Juan Pujol"
-		GFX = GFX_portrait_juan_pujol
-		traits = { operative_double_agent }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG GER }
-	}
-
-	create_operative_leader = {
-		name = "Dusko Popov"
-		GFX = GFX_portrait_dusko_popov
-		traits = { operative_double_agent }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG GER YUG }
-	}
-}
-
 
 if = {
 	limit = {
@@ -827,4 +780,4 @@ if = {
 			}
 			icon = "GFX_ENG_heavy_fighter1_medium"
 		}
-	}
+}

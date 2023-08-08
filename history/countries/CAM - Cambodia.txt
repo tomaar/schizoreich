@@ -20,33 +20,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		naval_bomber1 = 1
-		cv_early_fighter = 1
-		cv_naval_bomber1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		CAS1 = 1
-	}
-}
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-}
 if = {
 	limit = {
 		
@@ -60,24 +34,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		transport = 1
-	}
-}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -97,51 +53,12 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democrat
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	neutrality = 35
+	social_democrat = 100
 }
-
-create_country_leader = {
-	name = "Pol Pot" 
-	desc = ""
-	picture = GFX_portrait_Pol_Pot
-	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
-	traits = {
-		
-	}
-}
-
-#non standard english alphabet character
-create_country_leader = {
-	name = "Sisowath Youtévong"
-	desc = ""
-	picture = GFX_portrait_Sisowath_Youtevong
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Norodom Sihanouk" 
-	desc = ""
-	picture = GFX_portrait_Norodom_Sihanouk
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything historical on fascism
-

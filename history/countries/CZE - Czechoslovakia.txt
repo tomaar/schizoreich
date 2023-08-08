@@ -2,14 +2,6 @@
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "CZE_1936"
-}
-if = {
-	limit = {
 		has_dlc = "No Step Back"
 	}
 	set_oob = "CZE_1936_nsb"
@@ -25,14 +17,6 @@ if = {
 			iw_medium_airframe = 1
 			early_bombs = 1
 		}
-	else = {
-		set_air_oob = "CZE_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
-		}
-	}
 }
 
 set_technology = {
@@ -50,16 +34,6 @@ set_technology = {
 
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-}
-if = {
-	limit = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
@@ -72,30 +46,16 @@ if = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democrat
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
-	fascism = 5
-	communism = 10
+	social_democrat = 100
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
 
 if = {
 	limit = {
@@ -188,13 +148,3 @@ if = {
 	}
 
 }
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-

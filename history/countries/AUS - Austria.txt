@@ -10,13 +10,6 @@ if = {
 			aircraft_construction = 1
 			iw_small_airframe = 1
 		}
-	else = {
-		set_air_oob = "AUS_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-
-		}
-	}
 }
 set_research_slots = 3
 
@@ -33,17 +26,14 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = social_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	social_democrat = 100
 }
 
 set_stability = 0.50
