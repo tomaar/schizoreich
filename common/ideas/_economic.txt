@@ -81,17 +81,6 @@ ideas = {
 
 		low_economic_mobilisation = {
 
-			available = {
-				has_war_support > 0.15
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-			}
-
 			cost = 150
 			removal_cost = -1
 
@@ -155,8 +144,6 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = fascism
-					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -253,31 +240,6 @@ ideas = {
 						has_idea = limited_conscription
 					}
 				}
-
-				# Germany needs to be careful
-				modifier = {
-					factor = 0
-
-					tag = GER
-					NOT = { has_tech = volkssturm }
-					has_war = yes
-					date < 1944.01.01
-				}
-				modifier = {
-					factor = 0
-
-					tag = SOV
-					has_war = yes
-					OR = {
-						has_manpower < 2000000
-						NOT = {
-							OR = {
-								has_idea = all_adults_serve
-								has_idea = service_by_requirement
-							}
-						}
-					}
-				}
    			}
 
 			cost = 150
@@ -304,7 +266,6 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
-					NOT = { has_government = communism }
 				}
 			}
 
@@ -333,7 +294,6 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
-					NOT = { has_government = communism }
 				}
 			}
 
@@ -420,24 +380,6 @@ ideas = {
 
 		export_focus = {
 
-			available = {
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-			}
-
 
 			cost = 150
 			removal_cost = -1
@@ -458,27 +400,7 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
-
-				modifier = {
-					factor = 0
-
-					is_major = no
-					has_war = no
-					is_in_faction = no
-					OR = {
-						# portugal and sweden are special tungsten snowflakes
-						tag = POR
-						tag = SWE
-
-						# Iraq & Iran are special oil snowflakes
-						tag = PER
-						tag = IRQ
-					}
-				}
-				modifier = {
-					factor = 1000
-					has_idea = uncontrolled_exports #Poland should try and escape this as soon as they can
-				}
+				
    			}
 		}
 
@@ -486,7 +408,6 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = {
@@ -496,7 +417,6 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
@@ -506,20 +426,6 @@ ideas = {
 				}
 
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
 			}
 
 			cost = 150
@@ -572,25 +478,10 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = {
-					has_government = fascism
-					has_government = communism
-				}
-				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
 				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 
 			cost = 150
