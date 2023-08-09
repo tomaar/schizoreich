@@ -314,7 +314,6 @@ debug_decisions = {
 
 		complete_effect = {
 			random_country_division = {
-
 				add_history_entry = {
 					key = custom_localized_key
 					subject = "Custom String (not localized)"
@@ -353,8 +352,6 @@ debug_decisions = {
 		ai_will_do = {
 			base = 0
 		}
-		
-		power_balance = _test_balance
 	}
 
 
@@ -587,17 +584,5 @@ debug_decisions = {
 		modifier = {
 			encryption = 1
 		}
-	}
-
-	plane_generator_test = {
-		complete_effect = {
-			set_variable = { fighter_buy_amount = 200 }
-			save_event_target_as = license_target
-			bba_get_fighter_GER_effect = yes
-			GER = {
-				bba_create_fighter_license_effect = yes
-			}
-		}
-		
 	}
 }
