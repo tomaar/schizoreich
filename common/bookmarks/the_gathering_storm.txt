@@ -9,32 +9,31 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_democrat
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_democrat
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_democrat
 		}
 		"PRE"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = social_democrat
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "By Blood Alone" }	
+			ideology = social_democrat
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism		
+			ideology = social_democrat		
 		}
 		"BAY"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = social_democrat
 		}
 
 		"---"={
