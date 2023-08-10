@@ -1,0 +1,31 @@
+﻿army = {
+	gfx = GFX_theatre_army_shield
+}
+
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+}
+
+fleet = {
+	gfx = GFX_theatre_task_force_shield
+}
+
+task_force = {
+	gfx = GFX_theatre_task_force_shield
+}
+
+naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+}
+
+equipment_niche_insignias = {
+	gfx = GFX_niche_icon_strip
+}
+
+air_group = {
+	gfx = GFX_theatre_air_force_shield
+}
+
+air_niche = {
+	gfx = GFX_plane_niche_icon_strip
+}

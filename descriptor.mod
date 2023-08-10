@@ -4,6 +4,7 @@ tags={
 }
 picture="thumbnail.png"
 name="le epic"
+replace_path="common/abilities"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_strategy"
