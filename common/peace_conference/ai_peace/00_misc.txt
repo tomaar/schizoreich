@@ -120,7 +120,7 @@ peace_ai_desires = {
 
     leave_force_gov_at_will_to_allies = { #It is a bit hacky, but we need a preference here or we end up worse than where we started
         peace_action_type = force_government
-        enable = {y
+        enable = {
             ROOT.FROM.FROM.FROM = {
                 NOT = {
                     any_neighbor_state = {
