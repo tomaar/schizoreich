@@ -1,6 +1,5 @@
 ﻿capital = 950
 
-oob = "HON_1936"
 
 # Starting tech
 set_technology = {

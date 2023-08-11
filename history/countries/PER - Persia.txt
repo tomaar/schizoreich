@@ -1,9 +1,5 @@
 ﻿capital = 266
 
-oob = "PER_1936"
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-}
 
 # Starting tech
 set_technology = {

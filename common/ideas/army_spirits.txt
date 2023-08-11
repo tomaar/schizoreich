@@ -272,6 +272,7 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
+			}
 		}
 
 		ideological_loyalty_spirit = {

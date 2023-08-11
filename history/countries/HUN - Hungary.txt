@@ -1,6 +1,5 @@
 ﻿capital = 43
 
-oob = "HUN_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_technology = {

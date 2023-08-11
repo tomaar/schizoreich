@@ -1,9 +1,5 @@
 ﻿capital = 3
 
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-}
-
 set_research_slots = 3
 
 set_technology = {

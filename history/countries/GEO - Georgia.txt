@@ -1,6 +1,5 @@
 ﻿capital = 231 #Tbilisi
 
-oob = "GEO_1936"
 
 set_research_slots = 3
 
@@ -53,5 +52,5 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservative = 100
+	social_democrat = 100
 }

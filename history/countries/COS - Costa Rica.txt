@@ -1,6 +1,5 @@
 ﻿capital = 937
 
-oob = "COS_1936"
 
 # Starting tech
 set_technology = {

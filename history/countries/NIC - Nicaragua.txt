@@ -1,6 +1,5 @@
 ﻿capital = 334
 
-oob = "NIC_1936"
 
 # Starting tech
 set_technology = {

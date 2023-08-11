@@ -1,11 +1,6 @@
 ﻿capital = 9
 
 if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-}
-if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_technology = {
 			aa_lmg = 1

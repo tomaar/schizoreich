@@ -422,9 +422,7 @@ propaganda_efforts = {
 					is_major = yes
 				}
 			}
-			else = {
-				threat > 0.30
-			}
+			threat > 0.30
 		}
 
 		visible = {
@@ -1542,7 +1540,6 @@ war_measures = {
 			modifier = {
 				factor = 0
 				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
 			}
 		}
 
