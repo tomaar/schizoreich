@@ -87,11 +87,13 @@ if = {
 		}
 }
 
-
 set_convoys = 200
 
+recruit_character = ITA_napoleon_V
+recruit_character = ITA_napoleon_VI
+
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = authoritarian_democrat
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -99,3 +101,4 @@ set_politics = {
 set_popularities = {
 	social_democrat = 100
 }
+

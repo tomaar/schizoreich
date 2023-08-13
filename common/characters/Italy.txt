@@ -1,0 +1,28 @@
+characters={
+	ITA_napoleon_V = {
+		name = ITA_napoleon_V
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_napoleon_VI
+			}
+		}
+		country_leader = {
+			ideology = buonapartism
+			traits = {
+			}
+		}
+	}
+	ITA_napoleon_VI = {
+		name = ITA_napoleon_VI
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_napoleon_VI
+			}
+		}
+		country_leader = {
+			ideology = buonapartism
+			traits = {
+			}
+		}
+	}
+}

@@ -162,7 +162,7 @@ ideologies = {
 
 	authoritarian_democrat = {
 		types = {
-			sub1 = {
+			buonapartism = {
 			}
 		}
 		color = { 110 110 110 }

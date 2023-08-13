@@ -1,15 +1,23 @@
 spriteTypes = {
 
-	### GER
-	
+	#USA
     spriteType = {
         name = GFX_portrait_USA_huey_long
         texturefile = gfx/leaders/USA/Portrait_USA_Huey_Long.dds
     }
-
     spriteType = {
         name = GFX_portrait_USA_stalinus
         texturefile = gfx/leaders/USA/Portrait_USA_Stalinus.dds
+    }
+
+    #Italy
+    spriteType = {
+        name = GFX_portrait_ITA_napoleon_V
+        textureFile = gfx/leaders/ITA/Portrait_ITA_Napoleon_V.dds
+    }
+    spriteType = {
+        name = GFX_portrait_ITA_napoleon_VI
+        textureFile = gfx/leaders/ITA/Portrait_ITA_Napoleon_VI.dds
     }
 	
 }

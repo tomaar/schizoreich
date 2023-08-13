@@ -17,7 +17,7 @@ characters={
 		name = USA_huey_long
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_USA_huey_long"
+				large = GFX_portrait_USA_huey_long
 			}
 		}
 		country_leader = {
