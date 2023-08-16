@@ -12,6 +12,8 @@
  paternal_autocrat:0 "Paternal Autocrats"
  national_populist:0 "National Populists"
  futurist:0 "Futurists"
+ corporatocratic:0 "Corporatocrats"
+ theocratic:0 "Theocrats"
 
  ### Nouns ###
  totalist_noun:0 "Totalism"
@@ -25,3 +27,5 @@
  paternal_autocrat_noun:0 "Paternal Autocracy"
  national_populist_noun:0 "National Populism"
  futurist_noun:0 "Futurism"
+ corporatocratic_noun:0 "Corporatocracy"
+ theocratic_noun:0 "Theocracy"

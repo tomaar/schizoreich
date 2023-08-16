@@ -87,6 +87,8 @@ if = {
 		}
 }
 
+oob = ITA_1936
+
 set_convoys = 200
 
 recruit_character = ITA_napoleon_V
@@ -100,5 +102,10 @@ set_politics = {
 }
 set_popularities = {
 	social_democrat = 100
+}
+
+country_event = {
+	id = italy_assassination.1
+	days = 6
 }
 

@@ -1,16 +1,22 @@
 ﻿add_namespace = italy
+add_namespace = italy_assassination
 
 country_event = { # Death of Napoleon V
-	id = italy.1
-	title = italy.1.t
-	desc = italy.1.d
-
-	picture = GFX_report_event_military_planning
+	id = italy_assassination.1
+	title = italy_assassination.1.t
+	desc = italy_assassination.1.d
 
 	is_triggered_only = yes
 
+	immediate = {
+		country_event = {
+			id = italy_assassination.4
+			days = 7
+		}
+	}
+
 	option = { # Napoleon VI
-		name = italy.1.a
+		name = italy_assassination.1.a
 		
 		retire_country_leader = yes
 		add_country_leader_role = {
@@ -20,6 +26,7 @@ country_event = { # Death of Napoleon V
 				ideology = buonapartism
 			}
 		}
+		unlock_national_focus = ITA_emperors_new_year_address
 
 		ai_chance =
 		{
@@ -28,29 +35,27 @@ country_event = { # Death of Napoleon V
 	}
 }
 
-country_event = { # The War on Terror
-	id = italy.2
-	title = italy.2.t
-	desc = italy.2.d
-
-	picture = GFX_report_event_military_planning
+country_event = { # Investigation Authority
+	id = italy_assassination.2
+	title = italy_assassination.2.t
+	desc = italy_assassination.2.d
 
 	is_triggered_only = yes
 
-	option = { # Start the War on Terror
-		name = italy.2.a
+	option = { # Italians
+		name = italy_assassination.2.a
 
-		custom_effect_tooltip = italy.2.a.1
+		custom_effect_tooltip = italy_assassination.2.a.1
 
 		ai_chance =
 		{
 			factor = 100
 		}
 	}
-	option = { # No intervention in the Middle East
-		name = italy.2.b
+	option = { # Leave it to Egypt
+		name = italy_assassination.2.b
 
-		custom_effect_tooltip = italy.2.b.1
+		custom_effect_tooltip = italy_assassination.2.b.1
 
 		ai_chance =
 		{
@@ -59,30 +64,36 @@ country_event = { # The War on Terror
 	}
 }
 
-country_event = { # Nationalist riots
-	id = italy.2
-	title = italy.2.t
-	desc = italy.2.d
+country_event = { # New Year's Address, should never trigger
+	id = italy_assassination.3
+	title = italy_assassination.3.t
+	desc = italy_assassination.3.d
 
-	picture = GFX_report_event_military_planning
 
 	is_triggered_only = yes
 
-	option = { # No change in policy
-		name = italy.2.a
+	option = { # :eyes:
+		name = italy_assassination.3.a
+	}
+}
 
-		custom_effect_tooltip = italy.2.a.1
+country_event = { # Killers in Egypt
+	id = italy_assassination.4
+	title = italy_assassination.4.t
+	desc = italy_assassination.4.d
 
-		ai_chance =
-		{
-			factor = 100
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = {
+			id = italy_assassination.2
+			days = 7
 		}
 	}
-	option = { # No intervention in the Middle East
-		name = italy.2.b
 
-		custom_effect_tooltip = italy.2.b.1
-
+	option = {
+		name = italy_assassination.4.a
+		
 		ai_chance =
 		{
 			factor = 100

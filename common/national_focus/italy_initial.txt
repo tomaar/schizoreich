@@ -17,14 +17,18 @@
 	}
 
 	focus = {
-		id = ITA_emperors_new_year_adress
+		id = ITA_emperors_new_year_address
 		icon = GFX_goal_generic_position_armies
+
+		cancelable = no
 
 		x = 0
 		y = 0
 
 		cost = 5
 
-		completion_reward = {}
+		completion_reward = {
+			country_event = italy_assasination.3
+		}
 	}
 }

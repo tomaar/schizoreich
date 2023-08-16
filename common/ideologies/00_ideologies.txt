@@ -12,8 +12,8 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
-		can_collaborate = yes
 		modifiers = {
 			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.5
@@ -38,6 +38,7 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
@@ -172,6 +173,7 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
@@ -198,8 +200,8 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
-		can_collaborate = yes
 		modifiers = {
 			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.5
@@ -224,8 +226,8 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
-		can_collaborate = yes
 		modifiers = {
 			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.5
@@ -250,8 +252,60 @@ ideologies = {
 			can_join_factions = no
 			can_create_factions = no
 			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
-		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	corporatocratic = {
+		types = {
+			sub1 = {
+			}
+		}
+		color = { 128 128 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	theocratic = {
+		types = {
+			sub1 = {
+			}
+		}
+		color = { 88 0 88 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
 		modifiers = {
 			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.5

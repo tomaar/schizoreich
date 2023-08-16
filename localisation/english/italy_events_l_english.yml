@@ -1,11 +1,19 @@
 ﻿l_english:
- italy.1.t:0 "Emperor Napoleon Assasinated!"
- italy.1.d:1 "..."
- italy.1.a:0 "The Emperor is dead! Long live the Emperor!"
+ italy_assassination.1.t: "Emperor Napoleon Assasinated!"
+ italy_assassination.1.d: "..."
+ italy_assassination.1.a: "The Emperor is dead! Long live the Emperor!"
 
- italy.2.t:0 "Aftermath of the Emperor's Assasination"
- italy.2.d:1 "..."
- italy.2.a:0 "The perpetrators must be found and punished"
- italy.2.a.1:0 "§RWe must deal with this matter ourselves!§!"
- italy.2.b:0 "We cannot stir troubles in the colonies"
- italy.2.b.1:0 "§BThe Egyptians are capable of handling this§!"
+ italy_assassination.2.t: "Aftermath of the Emperor's Assassination"
+ italy_assassination.2.d: "..."
+ italy_assassination.2.a: "The perpetrators must be found and punished immediately"
+ italy_assassination.2.a.1: "§RWe must deal with this matter ourselves!§!"
+ italy_assassination.2.b: "We cannot stir troubles in the colonies"
+ italy_assassination.2.b.1: "§BThe Egyptians are capable of handling this§!"
+
+ italy_assassination.3.t: "Emperor's New Year Address"
+ italy_assassination.3.d: "..."
+ italy_assassination.3.a: "Sus"
+
+ italy_assassination.4.t: "Emperor's Killers in Egypt"
+ italy_assassination.4.d: "..."
+ italy_assassination.4.a: "We must decide how to handle this situation"
