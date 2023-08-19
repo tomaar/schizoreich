@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = italian_focus
+	id = italy_initial
 
 	country = {
 		factor = 0
@@ -28,7 +28,7 @@
 		cost = 5
 
 		completion_reward = {
-			country_event = italy_assasination.3
+			country_event = italy_assassination.3
 		}
 	}
 }

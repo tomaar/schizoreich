@@ -9,24 +9,52 @@ country_event = { # Death of Napoleon V
 	is_triggered_only = yes
 
 	immediate = {
-		country_event = {
-			id = italy_assassination.4
-			days = 7
+		hidden_effect = {
+			country_event = {
+				id = italy_assassination.4
+				days = 7
+			}
+			
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ITA_napoleon_VI
+				promote_leader = yes
+				country_leader = {
+					ideology = buonapartism
+				}
+			}
+			unlock_national_focus = ITA_emperors_new_year_address
 		}
 	}
 
 	option = { # Napoleon VI
 		name = italy_assassination.1.a
 		
-		retire_country_leader = yes
-		add_country_leader_role = {
-			character = ITA_napoleon_VI
-			promote_leader = yes
-			country_leader = {
-				ideology = buonapartism
+		effect_tooltip = {
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = ITA_napoleon_VI
+				promote_leader = yes
+				country_leader = {
+					ideology = buonapartism
+				}
 			}
+			unlock_national_focus = ITA_emperors_new_year_address
 		}
-		unlock_national_focus = ITA_emperors_new_year_address
+
+		swap_ideas = {
+			remove_idea = ITA_political_instability1
+			add_idea = ITA_political_instability2
+		}
+
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+		add_stability = -0.3
+		add_war_support = 0.1
+
+		load_focus_tree = italy_assasination_aftermath
 
 		ai_chance =
 		{
@@ -46,6 +74,21 @@ country_event = { # Investigation Authority
 		name = italy_assassination.2.a
 
 		custom_effect_tooltip = italy_assassination.2.a.1
+		set_country_flag = italy_leading_the_investigation
+
+		add_popularity = {
+			ideology = market_liberal
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.1
+		}
+		unlock_national_focus = ITA_begin_investigation
 
 		ai_chance =
 		{
@@ -56,6 +99,21 @@ country_event = { # Investigation Authority
 		name = italy_assassination.2.b
 
 		custom_effect_tooltip = italy_assassination.2.b.1
+		set_country_flag = egypt_leading_the_investigation
+
+		add_popularity = {
+			ideology = radical_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.1
+		}
+		unlock_national_focus = ITA_begin_investigation
 
 		ai_chance =
 		{
@@ -85,9 +143,11 @@ country_event = { # Killers in Egypt
 	is_triggered_only = yes
 
 	immediate = {
-		country_event = {
-			id = italy_assassination.2
-			days = 7
+		hidden_effect = {
+			country_event = {
+				id = italy_assassination.2
+				days = 7
+			}	
 		}
 	}
 

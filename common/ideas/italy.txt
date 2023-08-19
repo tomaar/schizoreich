@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		ITA_black_wednesday = {
+			picture = raj_indian_gentlemen_officers
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.1
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.2
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+			}
+		}
+		ITA_political_instability1 = {
+			picture = raj_indian_gentlemen_officers
+			
+			modifier = {
+				political_power_gain = -0.3
+				totalist_drift = 0.01
+				radical_socialist_drift = 0.01
+				social_democrat_drift = 0.025
+				market_liberal_drift = 0.01
+				paternal_autocrat_drift = 0.03
+				national_populist_drift = 0.01
+				futurist_drift = 0.01
+			}
+		}
+		ITA_political_instability2 = {
+			picture = raj_indian_gentlemen_officers
+			
+			modifier = {
+				political_power_gain = -1
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+				totalist_drift = 0.03
+				radical_socialist_drift = 0.03
+				social_democrat_drift = 0.05
+				market_liberal_drift = 0.03
+				paternal_autocrat_drift = 0.1
+				national_populist_drift = 0.03
+				futurist_drift = 0.03
+			}
+		}
+	}
+}

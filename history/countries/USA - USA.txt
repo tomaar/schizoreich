@@ -120,4 +120,6 @@ set_popularities = {
 	paternal_autocrat = 5
 	national_populist = 2
 	futurist = 0
+	corporatocratic = 0
+	theocratic = 0
 }

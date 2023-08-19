@@ -1,0 +1,226 @@
+﻿focus_tree = {
+	id = italy_assasination_aftermath
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1500 y = 1500 }
+
+	initial_show_position = {
+		x = 0
+		y = 0
+	}
+
+	focus = {
+		id = ITA_begin_investigation
+		icon = GFX_goal_generic_position_armies
+
+		available = {
+			always = no
+		}
+
+		x = 4
+		y = 0
+
+		cost = 2
+
+	}
+
+	focus = {
+		id = ITA_investigation1
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_begin_investigation
+		}
+
+		x = 0
+		y = 1
+
+		cost = 5
+	}
+
+	focus = {
+		id = ITA_investigation2
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_investigation1
+		}
+
+		x = 0
+		y = 2
+
+		cost = 5
+	}
+
+	focus = {
+		id = ITA_investigation3
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_investigation2
+		}
+
+		x = 0
+		y = 3
+
+		cost = 5
+	}
+
+	focus = {
+		id = ITA_internal_politics
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_begin_investigation
+		}
+
+		x = 8
+		y = 1
+
+		cost = 3
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform1
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_internal_politics
+		}
+
+		x = 5
+		y = 2
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform2
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_internal_politics
+		}
+
+		x = 7
+		y = 2
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform3
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_internal_politics
+		}
+
+		x = 9
+		y = 2
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform4
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = { 
+			focus = ITA_internal_politics
+		}
+
+		x = 11
+		y = 2
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform5
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = {
+			focus = ITA_internal_politics_reform1
+		}
+		prerequisite = {
+			focus = ITA_internal_politics_reform2
+		}
+
+		x = 6
+		y = 3
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform6
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = {
+			focus = ITA_internal_politics_reform3
+		}
+		prerequisite = {
+			focus = ITA_internal_politics_reform4
+		}
+
+		x = 10
+		y = 3
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_reform7
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = {
+			focus = ITA_internal_politics_reform5
+		}
+		prerequisite = {
+			focus = ITA_internal_politics_reform6
+		}
+
+		x = 8
+		y = 4
+
+		cost = 2
+	}
+
+	focus = {
+		id = ITA_internal_politics_talk_to_the_parliament
+		icon = GFX_goal_generic_position_armies
+
+		prerequisite = {
+			focus = ITA_internal_politics_reform7
+		}
+
+		x = 8
+		y = 5
+
+		cost = 5
+	}
+
+	focus = {
+		id = ITA_internal_politics_motion_of_no_confidence
+		icon = GFX_goal_generic_position_armies
+
+		cancelable = no
+
+		prerequisite = {
+			focus = ITA_internal_politics_talk_to_the_parliament
+		}
+
+		x = 8
+		y = 6
+
+		cost = 2
+	}
+}

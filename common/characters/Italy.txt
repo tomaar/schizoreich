@@ -9,6 +9,7 @@ characters={
 		country_leader = {
 			ideology = buonapartism
 			traits = {
+				ITA_unpopular_monarch
 			}
 		}
 	}
