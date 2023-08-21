@@ -6,9 +6,7 @@
  italy_assassination.2.t: "Aftermath of the Emperor's Assassination"
  italy_assassination.2.d: "..."
  italy_assassination.2.a: "The perpetrators must be found and punished immediately"
- italy_assassination.2.a.1: "§RWe must deal with this matter ourselves!§!"
  italy_assassination.2.b: "The motion is shut down by the Chamber of Deputies"
- italy_assassination.2.b.1: "§BThe Egyptians are capable of handling this§!"
 
  italy_assassination.3.t: "Emperor's New Year Address"
  italy_assassination.3.d: "..."
@@ -17,3 +15,15 @@
  italy_assassination.4.t: "Emperor's Killers in Egypt"
  italy_assassination.4.d: "..."
  italy_assassination.4.a: "We must decide how to handle this situation"
+
+ italy_assassination.5.t: "Emperor's Killers in Egypt"
+ italy_assassination.5.d: "..."
+ italy_assassination.5.a: "We must decide how to handle this situation"
+
+ italy_assassination.6.t: "Emperor's Killers in Egypt"
+ italy_assassination.6.d: "..."
+ italy_assassination.6.a: "We must decide how to handle this situation"
+
+ italy_assassination.7.t: "Emperor's Killers in Egypt"
+ italy_assassination.7.d: "..."
+ italy_assassination.7.a: "We must decide how to handle this situation"

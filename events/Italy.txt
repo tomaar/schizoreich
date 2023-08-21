@@ -14,6 +14,10 @@ country_event = { # Death of Napoleon V
 				id = italy_assassination.4
 				days = 7
 			}
+			country_event = {
+				id = italy_assassination.2
+				days = 14
+			}
 			
 			retire_country_leader = yes
 			add_country_leader_role = {
@@ -53,6 +57,7 @@ country_event = { # Death of Napoleon V
 		}
 		add_stability = -0.3
 		add_war_support = 0.1
+		set_country_flag = napoleon_V_dead
 
 		load_focus_tree = italy_assasination_aftermath
 
@@ -70,10 +75,26 @@ country_event = { # Investigation Authority
 
 	is_triggered_only = yes
 
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				var = ITA_assassination_arab_unrest
+				value = 50
+			}
+			set_variable = {
+				var = ITA_assassination_nationalist_unrest
+				value = 50
+			}
+			set_country_flag = ITA_investigation_started
+			activate_decision = ITA_emperors_assassination_investigation_ticker
+		}
+	}
+
 	option = { # Italians
 		name = italy_assassination.2.a
 
-		custom_effect_tooltip = italy_assassination.2.a.1
+		custom_effect_tooltip = ITA_take_over_the_investigation
+		unlock_decision_category_tooltip = ITA_emperors_assassination_investigation
 		set_country_flag = italy_leading_the_investigation
 
 		add_popularity = {
@@ -98,8 +119,8 @@ country_event = { # Investigation Authority
 	option = { # Leave it to Egypt
 		name = italy_assassination.2.b
 
-		custom_effect_tooltip = italy_assassination.2.b.1
-		set_country_flag = egypt_leading_the_investigation
+		custom_effect_tooltip = ITA_leave_the_investigation_to_egypt
+		unlock_decision_category_tooltip = ITA_emperors_assassination_investigation
 
 		add_popularity = {
 			ideology = radical_socialist
@@ -142,17 +163,77 @@ country_event = { # Killers in Egypt
 
 	is_triggered_only = yes
 
+	option = {
+		name = italy_assassination.4.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Nationalist Coup Ending
+	id = italy_assassination.5
+	title = italy_assassination.5.t
+	desc = italy_assassination.5.d
+
+	is_triggered_only = yes
+
 	immediate = {
 		hidden_effect = {
-			country_event = {
-				id = italy_assassination.2
-				days = 7
-			}	
+			italy_end_of_investigation = yes
+		}
+	}
+	
+	option = {
+		name = italy_assassination.5.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # War on Terror Ending
+	id = italy_assassination.6
+	title = italy_assassination.6.t
+	desc = italy_assassination.6.d
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			italy_end_of_investigation = yes
 		}
 	}
 
 	option = {
-		name = italy_assassination.4.a
+		name = italy_assassination.6.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Secret??? Ending
+	id = italy_assassination.7
+	title = italy_assassination.7.t
+	desc = italy_assassination.7.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			italy_end_of_investigation = yes
+		}
+	}
+
+	option = {
+		name = italy_assassination.7.a
 		
 		ai_chance =
 		{

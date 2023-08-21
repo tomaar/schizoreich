@@ -1,0 +1,8 @@
+﻿l_english:
+#flags
+ italy_leading_the_investigation: "We are fully committed to the investigation of the Emperors's assassination"
+ ITA_emperors_assassination_investigation_desc:0 "Either value over 100 will trigger a sudden end of the investigation\nArab unrest: [?ITA_assassination_arab_unrest|R|0]\nNationalist impatience: [?ITA_assassination_nationalist_unrest|R|0]"
+ assassination_nationalist_unrest_tooltip: "Change Nationalist Impatience by [?ITA_temp_unrest_change|-]"
+ assassination_arab_unrest_tooltip: "Change Arab Unrest by [?ITA_temp_unrest_change|-]"
+ ITA_take_over_the_investigation: "§RWe must deal with this matter ourselves!§!"
+ ITA_leave_the_investigation_to_egypt: "§BThe Egyptians are capable of handling this§!"

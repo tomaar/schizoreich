@@ -39,10 +39,14 @@
 			focus = ITA_begin_investigation
 		}
 
+		available = {
+			has_country_flag = italy_leading_the_investigation
+		}
+
 		x = 0
 		y = 1
 
-		cost = 5
+		cost = 3
 	}
 
 	focus = {
@@ -53,10 +57,14 @@
 			focus = ITA_investigation1
 		}
 
+		available = {
+			has_country_flag = italy_leading_the_investigation
+		}
+
 		x = 0
 		y = 2
 
-		cost = 5
+		cost = 3
 	}
 
 	focus = {
@@ -67,10 +75,14 @@
 			focus = ITA_investigation2
 		}
 
+		available = {
+			has_country_flag = italy_leading_the_investigation
+		}
+
 		x = 0
 		y = 3
 
-		cost = 5
+		cost = 3
 	}
 
 	focus = {
@@ -79,6 +91,12 @@
 
 		prerequisite = { 
 			focus = ITA_begin_investigation
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
 		}
 
 		x = 8
@@ -95,6 +113,12 @@
 			focus = ITA_internal_politics
 		}
 
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
+		}
+
 		x = 5
 		y = 2
 
@@ -107,6 +131,12 @@
 
 		prerequisite = { 
 			focus = ITA_internal_politics
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
 		}
 
 		x = 7
@@ -123,6 +153,12 @@
 			focus = ITA_internal_politics
 		}
 
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
+		}
+
 		x = 9
 		y = 2
 
@@ -135,6 +171,12 @@
 
 		prerequisite = { 
 			focus = ITA_internal_politics
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
 		}
 
 		x = 11
@@ -154,6 +196,12 @@
 			focus = ITA_internal_politics_reform2
 		}
 
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
+		}
+
 		x = 6
 		y = 3
 
@@ -169,6 +217,12 @@
 		}
 		prerequisite = {
 			focus = ITA_internal_politics_reform4
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
 		}
 
 		x = 10
@@ -188,6 +242,12 @@
 			focus = ITA_internal_politics_reform6
 		}
 
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
+		}
+
 		x = 8
 		y = 4
 
@@ -202,10 +262,16 @@
 			focus = ITA_internal_politics_reform7
 		}
 
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
+		}
+
 		x = 8
 		y = 5
 
-		cost = 5
+		cost = 3
 	}
 
 	focus = {
@@ -216,6 +282,12 @@
 
 		prerequisite = {
 			focus = ITA_internal_politics_talk_to_the_parliament
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = italy_leading_the_investigation	
+			}
 		}
 
 		x = 8

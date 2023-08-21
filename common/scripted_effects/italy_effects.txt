@@ -1,0 +1,6 @@
+italy_end_of_investigation = {
+	clr_country_flag = ITA_investigation_started
+	remove_decision = ITA_emperors_assassination_investigation_ticker
+	clear_variable = ITA_assassination_arab_unrest
+	clear_variable = ITA_assassination_nationalist_unrest
+}
