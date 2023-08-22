@@ -1,5 +1,6 @@
 ﻿add_namespace = italy
 add_namespace = italy_assassination
+add_namespace = italy_internal_reform
 
 country_event = { # Death of Napoleon V
 	id = italy_assassination.1
@@ -59,7 +60,7 @@ country_event = { # Death of Napoleon V
 		add_war_support = 0.1
 		set_country_flag = napoleon_V_dead
 
-		load_focus_tree = italy_assasination_aftermath
+		load_focus_tree = italy_assassination_aftermath
 
 		ai_chance =
 		{
@@ -234,6 +235,259 @@ country_event = { # Secret??? Ending
 
 	option = {
 		name = italy_assassination.7.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Budget overview
+	id = italy_internal_reform.1
+	title = italy_internal_reform.1.t
+	desc = italy_internal_reform.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy_internal_reform.1.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Invest in Italy
+	id = italy_internal_reform.2
+	title = italy_internal_reform.2.t
+	desc = italy_internal_reform.2.d
+
+	is_triggered_only = yes
+
+	option = { # North
+		name = italy_internal_reform.2.a
+		
+		158 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		159 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		160 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+
+	option = { # South
+		name = italy_internal_reform.2.b
+		
+		115 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		117 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		849 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		2 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Army overview
+	id = italy_internal_reform.3
+	title = italy_internal_reform.3.t
+	desc = italy_internal_reform.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy_internal_reform.3.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Navy and airforce overview
+	id = italy_internal_reform.4
+	title = italy_internal_reform.4.t
+	desc = italy_internal_reform.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy_internal_reform.4.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Invest in the Colonies
+	id = italy_internal_reform.5
+	title = italy_internal_reform.5.t
+	desc = italy_internal_reform.5.d
+
+	is_triggered_only = yes
+
+	option = { # Focus on Egypt
+		name = italy_internal_reform.5.a
+		
+		EGY = {
+			447 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			907 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+
+	option = { # Focus on not Egypt
+		name = italy_internal_reform.5.b
+		
+		EGY = {
+			447 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		LBA = {
+			448 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		AOI = {
+			271 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			268 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Maneuvers
+	id = italy_internal_reform.6
+	title = italy_internal_reform.6.t
+	desc = italy_internal_reform.6.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy_internal_reform.6.a
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+}
+
+country_event = { # Changes in the administration
+	id = italy_internal_reform.7
+	title = italy_internal_reform.7.t
+	desc = italy_internal_reform.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy_internal_reform.7.a
 		
 		ai_chance =
 		{

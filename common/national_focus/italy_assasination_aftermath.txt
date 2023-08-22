@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = italy_assasination_aftermath
+	id = italy_assassination_aftermath
 
 	country = {
 		factor = 0
@@ -103,6 +103,11 @@
 		y = 1
 
 		cost = 3
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
 	}
 
 	focus = {
@@ -119,10 +124,16 @@
 			}
 		}
 
-		x = 5
+		x = 6
 		y = 2
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.1
+			}
+		}
 	}
 
 	focus = {
@@ -130,7 +141,7 @@
 		icon = GFX_goal_generic_position_armies
 
 		prerequisite = { 
-			focus = ITA_internal_politics
+			focus = ITA_internal_politics_reform1
 		}
 
 		available = {
@@ -139,10 +150,20 @@
 			}
 		}
 
-		x = 7
-		y = 2
+		mutually_exclusive = {
+			focus = ITA_internal_politics_reform5
+		}
+
+		x = 5
+		y = 3
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.2
+			}
+		}
 	}
 
 	focus = {
@@ -163,6 +184,12 @@
 		y = 2
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.3
+			}
+		}
 	}
 
 	focus = {
@@ -183,6 +210,12 @@
 		y = 2
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.4
+			}
+		}
 	}
 
 	focus = {
@@ -192,9 +225,6 @@
 		prerequisite = {
 			focus = ITA_internal_politics_reform1
 		}
-		prerequisite = {
-			focus = ITA_internal_politics_reform2
-		}
 
 		available = {
 			NOT = {
@@ -202,10 +232,20 @@
 			}
 		}
 
-		x = 6
+		mutually_exclusive = {
+			focus = ITA_internal_politics_reform2
+		}
+
+		x = 7
 		y = 3
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.5
+			}
+		}
 	}
 
 	focus = {
@@ -229,6 +269,12 @@
 		y = 3
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.6
+			}
+		}
 	}
 
 	focus = {
@@ -236,6 +282,7 @@
 		icon = GFX_goal_generic_position_armies
 
 		prerequisite = {
+			focus = ITA_internal_politics_reform2
 			focus = ITA_internal_politics_reform5
 		}
 		prerequisite = {
@@ -252,6 +299,12 @@
 		y = 4
 
 		cost = 2
+		
+		completion_reward = {
+			country_event = {
+				id = italy_internal_reform.7
+			}
+		}
 	}
 
 	focus = {

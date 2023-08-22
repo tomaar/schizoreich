@@ -94,7 +94,10 @@ set_convoys = 200
 add_ideas = {
 	ITA_black_wednesday
 	ITA_political_instability1
+	ITA_auxiliary_army
 }
+
+country_lock_all_division_template = yes
 
 recruit_character = ITA_napoleon_V
 recruit_character = ITA_napoleon_VI
