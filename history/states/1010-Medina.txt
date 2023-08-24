@@ -1,0 +1,18 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		2090 4981 5037 7934 10748 10786 10835 12758 
+	}
+	history={
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	state_category = rural
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

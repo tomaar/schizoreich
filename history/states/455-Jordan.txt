@@ -2,9 +2,6 @@
 state={
 	id=455
 	name="STATE_455"
-	manpower = 932000
-	
-	state_category = rural
 
 	history={
 		owner = ISR
@@ -12,6 +9,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			7151 1 
@@ -23,8 +21,10 @@ state={
 	}
 
 	provinces={
-		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+		4017 4115 7151 7170 10089 
 	}
-
-	local_supplies=0.0 
+	manpower=932000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

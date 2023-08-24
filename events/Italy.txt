@@ -413,9 +413,19 @@ country_event = { # Invest in the Colonies
 		}
 	}
 
-	option = { # Focus on not Egypt
+	option = { # Focus not on Egypt
 		name = italy_internal_reform.5.b
 		
+		set_temp_variable = {
+			var = ITA_temp_unrest_change
+			value = 5
+		}
+		add_to_variable = {
+			var = ITA_assassination_arab_unrest
+			value = ITA_temp_unrest_change
+			tooltip = assassination_arab_unrest_tooltip
+		}
+
 		EGY = {
 			447 = {
 				add_extra_state_shared_building_slots = 1

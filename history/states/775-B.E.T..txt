@@ -6,8 +6,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = FAF
-		add_core_of = FAF
+		owner = WES
+		add_core_of = WES
 		buildings = {
 			infrastructure = 0
 		}

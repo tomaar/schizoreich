@@ -1,18 +1,23 @@
+
 state={
 	id=970
 	name="STATE_970"
-	provinces={
-		1922 5050 5089 10774 
-	}
-	history = {
+
+	history={
 		owner = PER
 		add_core_of = PER
 		buildings = {
 			infrastructure = 2
+
 		}
+
+	}
+
+	provinces={
+		1922 5050 5089 
 	}
 	manpower=1
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

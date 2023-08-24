@@ -1,0 +1,18 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		8028 10758 10780 10805 
+	}
+	history={
+		owner = FAF
+		add_core_of = FAF
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	state_category = rural
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
