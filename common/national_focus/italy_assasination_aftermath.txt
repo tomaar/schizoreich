@@ -160,6 +160,24 @@
 		cost = 2
 		
 		completion_reward = {
+			set_temp_variable = {
+				var = ITA_temp_unrest_change
+				value = 10
+			}
+			add_to_variable = {
+				var = ITA_assassination_arab_unrest
+				value = ITA_temp_unrest_change
+				tooltip = assassination_arab_unrest_tooltip
+			}
+			set_temp_variable = {
+				var = ITA_temp_unrest_change
+				value = -10
+			}
+			add_to_variable = {
+				var = ITA_assassination_nationalist_unrest
+				value = ITA_temp_unrest_change
+				tooltip = assassination_nationalist_unrest_tooltip
+			}
 			country_event = {
 				id = italy_internal_reform.2
 			}
@@ -242,6 +260,24 @@
 		cost = 2
 		
 		completion_reward = {
+			set_temp_variable = {
+				var = ITA_temp_unrest_change
+				value = -10
+			}
+			add_to_variable = {
+				var = ITA_assassination_arab_unrest
+				value = ITA_temp_unrest_change
+				tooltip = assassination_arab_unrest_tooltip
+			}
+			set_temp_variable = {
+				var = ITA_temp_unrest_change
+				value = 10
+			}
+			add_to_variable = {
+				var = ITA_assassination_nationalist_unrest
+				value = ITA_temp_unrest_change
+				tooltip = assassination_nationalist_unrest_tooltip
+			}
 			country_event = {
 				id = italy_internal_reform.5
 			}

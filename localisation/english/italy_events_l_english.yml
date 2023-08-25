@@ -34,7 +34,8 @@
 
  italy_internal_reform.2.t: "Invest in Italy"
  italy_internal_reform.2.d: "..."
- italy_internal_reform.2.a: ""
+ italy_internal_reform.2.a: "Focus on developing the North"
+ italy_internal_reform.2.b: "Focus on developing the South"
 
  italy_internal_reform.3.t: "Army Overview"
  italy_internal_reform.3.d: "..."
@@ -46,7 +47,8 @@
 
  italy_internal_reform.5.t: "Invest in the Colonies"
  italy_internal_reform.5.d: "..."
- italy_internal_reform.5.a: ""
+ italy_internal_reform.5.a: "Focus on developing Egypt"
+ italy_internal_reform.5.b: "Maximise economic returns"
 
  italy_internal_reform.6.t: "Joint Maneuvers"
  italy_internal_reform.6.d: "..."
