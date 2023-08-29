@@ -49,5 +49,13 @@ ideas = {
 				custom_modifier_tooltip = SPR_military_disloyalty_tt
 			}
 		}
+		ITA_deficit_spending = {
+			picture = raj_indian_gentlemen_officers
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
 	}
 }

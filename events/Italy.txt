@@ -82,10 +82,6 @@ country_event = { # Investigation Authority
 				var = ITA_assassination_arab_unrest
 				value = 50
 			}
-			set_variable = {
-				var = ITA_assassination_nationalist_unrest
-				value = 50
-			}
 			set_country_flag = ITA_investigation_started
 			activate_decision = ITA_emperors_assassination_investigation_ticker
 		}
@@ -149,7 +145,6 @@ country_event = { # New Year's Address, should never trigger
 	title = italy_assassination.3.t
 	desc = italy_assassination.3.d
 
-
 	is_triggered_only = yes
 
 	option = { # :eyes:
@@ -174,67 +169,21 @@ country_event = { # Killers in Egypt
 	}
 }
 
-country_event = { # Nationalist Coup Ending
+country_event = { # War on Terror Ending
 	id = italy_assassination.5
 	title = italy_assassination.5.t
 	desc = italy_assassination.5.d
 
 	is_triggered_only = yes
-
+	
 	immediate = {
 		hidden_effect = {
 			italy_end_of_investigation = yes
 		}
 	}
-	
+
 	option = {
 		name = italy_assassination.5.a
-		
-		ai_chance =
-		{
-			factor = 100
-		}
-	}
-}
-
-country_event = { # War on Terror Ending
-	id = italy_assassination.6
-	title = italy_assassination.6.t
-	desc = italy_assassination.6.d
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			italy_end_of_investigation = yes
-		}
-	}
-
-	option = {
-		name = italy_assassination.6.a
-		
-		ai_chance =
-		{
-			factor = 100
-		}
-	}
-}
-
-country_event = { # Secret??? Ending
-	id = italy_assassination.7
-	title = italy_assassination.7.t
-	desc = italy_assassination.7.d
-
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			italy_end_of_investigation = yes
-		}
-	}
-
-	option = {
-		name = italy_assassination.7.a
 		
 		ai_chance =
 		{
@@ -253,6 +202,22 @@ country_event = { # Budget overview
 	option = {
 		name = italy_internal_reform.1.a
 		
+		add_timed_idea = {
+			idea = ITA_deficit_spending
+			days = 365
+		}
+		
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+	option = {
+		name = italy_internal_reform.1.b
+		
+		add_political_power = 50
+		add_stability = 0.05
+
 		ai_chance =
 		{
 			factor = 100
@@ -353,6 +318,8 @@ country_event = { # Army overview
 
 	option = {
 		name = italy_internal_reform.3.a
+
+		army_experience = 25
 		
 		ai_chance =
 		{
@@ -368,9 +335,34 @@ country_event = { # Navy and airforce overview
 
 	is_triggered_only = yes
 
-	option = {
+	option = { # Navy
 		name = italy_internal_reform.4.a
 		
+		navy_experience = 25
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+
+	option = { # Airforce
+		name = italy_internal_reform.4.b
+		
+		navy_experience = 15
+		air_experience = 15
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+
+	option = { # Balanced
+		name = italy_internal_reform.4.c
+		
+		air_experience = 25
+
 		ai_chance =
 		{
 			factor = 100
@@ -479,9 +471,53 @@ country_event = { # Maneuvers
 
 	is_triggered_only = yes
 
-	option = {
+	option = { # Marines
 		name = italy_internal_reform.6.a
 		
+		add_tech_bonus = {
+			name = ITA_joint_maneuvers
+			bonus = 1
+			uses = 1
+			category = marine_tech
+		}
+		army_experience = 10
+		navy_experience = 20
+		air_experience = 10
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+	option = { # Navy
+		name = italy_internal_reform.6.b
+		
+		add_doctrine_cost_reduction = {
+			name = ITA_joint_maneuvers
+			cost_reduction = 0.3
+			uses = 2
+			category = naval_doctrine
+		}
+		navy_experience = 30
+		air_experience = 10
+
+		ai_chance =
+		{
+			factor = 100
+		}
+	}
+	option = { # Ground forces
+		name = italy_internal_reform.6.c
+		
+		add_doctrine_cost_reduction = {
+			name = ITA_joint_maneuvers
+			cost_reduction = 0.2
+			uses = 2
+			category = land_doctrine
+		}
+		army_experience = 30
+		air_experience = 10
+
 		ai_chance =
 		{
 			factor = 100

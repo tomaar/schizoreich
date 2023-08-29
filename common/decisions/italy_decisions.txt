@@ -10,23 +10,11 @@ ITA_emperors_assassination_investigation = {
 				value = 5
 			}
 			add_to_variable = {
-				var = ITA_assassination_nationalist_unrest
+				var = ITA_assassination_arab_unrest
 				value = ITA_temp_unrest_change
-				tooltip = assassination_nationalist_unrest_tooltip
+				tooltip = assassination_arab_unrest_tooltip
 			}
 			if = {
-				limit = {
-					check_variable = {
-						var = ITA_assassination_nationalist_unrest
-						value = 100
-						compare = greater_than_or_equals
-					}
-				}
-				country_event = {
-					id = italy_assassination.5
-				}
-			}
-			else_if = {
 				limit = {
 					check_variable = {
 						var = ITA_assassination_arab_unrest
@@ -59,15 +47,6 @@ ITA_emperors_assassination_investigation = {
 			set_country_flag = italy_leading_the_investigation
 			custom_effect_tooltip = ITA_take_over_the_investigation
 			
-			set_temp_variable = {
-				var = ITA_temp_unrest_change
-				value = -20
-			}
-			add_to_variable = {
-				var = ITA_assassination_nationalist_unrest
-				value = ITA_temp_unrest_change
-				tooltip = assassination_nationalist_unrest_tooltip
-			}
 			set_temp_variable = {
 				var = ITA_temp_unrest_change
 				value = 20

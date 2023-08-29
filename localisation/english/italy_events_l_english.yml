@@ -16,21 +16,14 @@
  italy_assassination.4.d: "..."
  italy_assassination.4.a: "We must decide how to handle this situation"
 
- italy_assassination.5.t: "Emperor's Killers in Egypt"
+ italy_assassination.5.t: "Egypt Breaks off Diplomatic Relations"
  italy_assassination.5.d: "..."
- italy_assassination.5.a: "We must decide how to handle this situation"
-
- italy_assassination.6.t: "Emperor's Killers in Egypt"
- italy_assassination.6.d: "..."
- italy_assassination.6.a: "We must decide how to handle this situation"
-
- italy_assassination.7.t: "Emperor's Killers in Egypt"
- italy_assassination.7.d: "..."
- italy_assassination.7.a: "We must decide how to handle this situation"
+ italy_assassination.5.a: "Prepare for a military intervention"
 
  italy_internal_reform.1.t: "Budget Overview"
  italy_internal_reform.1.d: "..."
- italy_internal_reform.1.a: ""
+ italy_internal_reform.1.a: "Stick to expansionary fiscal policy"
+ italy_internal_reform.1.b: "Implement stricter economic measures"
 
  italy_internal_reform.2.t: "Invest in Italy"
  italy_internal_reform.2.d: "..."
@@ -39,11 +32,13 @@
 
  italy_internal_reform.3.t: "Army Overview"
  italy_internal_reform.3.d: "..."
- italy_internal_reform.3.a: ""
+ italy_internal_reform.3.a: "Imminent changes are necessary"
 
  italy_internal_reform.4.t: "Navy and Airforce Overview"
  italy_internal_reform.4.d: "..."
- italy_internal_reform.4.a: ""
+ italy_internal_reform.4.a: "Focus on the Navy"
+ italy_internal_reform.4.b: "Focus on the Airforce"
+ italy_internal_reform.4.c: "Strive for a balanced approach"
 
  italy_internal_reform.5.t: "Invest in the Colonies"
  italy_internal_reform.5.d: "..."
@@ -51,8 +46,10 @@
  italy_internal_reform.5.b: "Maximise economic returns"
 
  italy_internal_reform.6.t: "Joint Maneuvers"
- italy_internal_reform.6.d: "..."
- italy_internal_reform.6.a: ""
+ italy_internal_reform.6.d: "... show that the focus should be on:"
+ italy_internal_reform.6.a: "The Marine Corps"
+ italy_internal_reform.6.b: "The Regia Marina"
+ italy_internal_reform.6.c: "Our Ground Forces"
 
  italy_internal_reform.7.t: "Changes in the Administration"
  italy_internal_reform.7.d: "..."
