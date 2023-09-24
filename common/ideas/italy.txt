@@ -12,21 +12,7 @@ ideas = {
 				production_speed_dockyard_factor = -0.5
 			}
 		}
-		ITA_political_instability1 = {
-			picture = raj_indian_gentlemen_officers
-			
-			modifier = {
-				political_power_gain = -0.3
-				totalist_drift = 0.01
-				radical_socialist_drift = 0.01
-				social_democrat_drift = 0.025
-				social_liberal_drift = 0.01
-				paternal_autocrat_drift = 0.03
-				national_populist_drift = 0.01
-				futurist_drift = 0.01
-			}
-		}
-		ITA_political_instability2 = {
+		ITA_political_instability = {
 			picture = raj_indian_gentlemen_officers
 			
 			modifier = {
@@ -47,14 +33,6 @@ ideas = {
 			
 			modifier = {
 				custom_modifier_tooltip = SPR_military_disloyalty_tt
-			}
-		}
-		ITA_deficit_spending = {
-			picture = raj_indian_gentlemen_officers
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = 0.1
 			}
 		}
 	}
