@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_country_flag = cocka
+				add_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ruling_party }
+				set_variable = {
+					var = ruling_party_pp_gain
+					value = party_popularity@ruling_party
+				}
+			}
+		}
+	}
+
+	on_weekly = { # every week recalculate ruling party popularity
+		effect = {
+			if = {
+				limit = { 
+					has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ruling_party }
+				}
+				set_variable = {
+					var = ruling_party_pp_gain
+					value = party_popularity@ruling_party
+				}
+			}
+		}
+	}
+	on_weekly = { # every week recalculate coalition popularity
+		effect = {
+			if = {
+				limit = { 
+					has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
+				}
+				recalculate_coalition_pp = yes
+			}
+		}
+	}
+}

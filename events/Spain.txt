@@ -1,0 +1,59 @@
+﻿add_namespace = spain
+
+country_event = {
+	id = spain.1
+	title = spain.1.t
+	desc = spain.1.desc
+	
+	is_triggered_only = yes
+
+	option = {
+		name = spain.1.a
+
+		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		add_to_coalition = yes
+
+		ai_chance =	{
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = spain.2
+	title = spain.2.t
+	desc = spain.2.desc
+	
+	is_triggered_only = yes
+
+	option = {
+		name = spain.2.a
+
+		recalculate_coalition_pp = yes
+
+		ai_chance =	{
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = spain.3
+	title = spain.3.t
+	desc = spain.3.desc
+	
+	is_triggered_only = yes
+
+	option = {
+		name = spain.3.a
+
+		set_variable = {
+			var = ruling_party_pp_gain
+			value = 23
+		}
+
+		ai_chance =	{
+			factor = 0
+		}
+	}
+}

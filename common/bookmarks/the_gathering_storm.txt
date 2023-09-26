@@ -25,15 +25,15 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = social_democrat
+			ideology = authoritarian_democrat
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = social_democrat		
 		}
-		"BAY"={
+		"SPR"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = social_democrat
+			ideology = totalist
 		}
 
 		"---"={

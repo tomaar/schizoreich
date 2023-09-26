@@ -98,7 +98,6 @@ add_ideas = {
 
 country_lock_all_division_template = yes
 
-recruit_character = ITA_napoleon_V
 recruit_character = ITA_napoleon_VI
 
 set_politics = {

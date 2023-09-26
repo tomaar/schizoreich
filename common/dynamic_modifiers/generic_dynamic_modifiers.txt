@@ -1,0 +1,8 @@
+
+party_popularity_dynamic_modifier_ruling_party = {
+	political_power_gain = ruling_party_pp_gain
+}
+
+party_popularity_dynamic_modifier_coalition = {
+	political_power_gain = coalition_pp_gain
+}

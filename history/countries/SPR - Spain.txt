@@ -1,7 +1,5 @@
 ﻿capital = 41
 
-
-
 set_research_slots = 3
 
 set_technology = {
@@ -36,17 +34,29 @@ if = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = totalist
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	social_democrat = 100
+	totalist = 26
+	radical_socialist = 8
+	social_democrat = 4
+	social_liberal = 4
+	market_liberal = 12
+	social_conservative = 14
+	authoritarian_democrat = 6
+	paternal_autocrat = 12
+	national_populist = 10
+	futurist = 4
+	corporatocratic = 0
+	theocratic = 0
 }
 
 set_convoys = 150
-set_stability = 0.5
+set_stability = 0.3
+set_war_support = 0.8
 
 if = {
 	limit = {
