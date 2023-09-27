@@ -22,6 +22,13 @@
 #
 #	disable_party_popularity_PP_gain = yes -- disables popularity PP gain altogether
 
+recalculate_ruling_party_pp = {
+	set_variable = {
+		var = ruling_party_pp_gain
+		value = party_popularity@ruling_party
+	}
+}
+
 recalculate_coalition_pp = {
 	set_variable = { coalition_pp_gain = 0 }
 
@@ -40,7 +47,6 @@ add_to_coalition = {
 				is_in_array = { coalition_partners = coalition_partner_var }
 			}
 		}
-		custom_effect_tooltip = add_to_coalition
 	}
 	if = {
 		limit = {
@@ -68,7 +74,6 @@ remove_from_coalition = {
 		limit = {
 			is_in_array = { coalition_partners = coalition_partner_var }
 		}
-		custom_effect_tooltip = remove_from_coalition
 		if = {
 			limit = {
 				has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
@@ -80,8 +85,8 @@ remove_from_coalition = {
 		}
 		else = {
 			remove_from_array = { coalition_partners = coalition_partner_var }
-			subtract_from_variable = { coalition_pp_gain = party_popularity@var:coalition_partner_var }
 		}
+		recalculate_coalition_pp = yes
 	}
 }
 
@@ -94,6 +99,7 @@ end_coalition = {
 	}
 	clear_variable = coalition_pp_gain
 	clear_array = coalition_partners
+	custom_effect_tooltip = end_coalition_tt
 }
 
 change_ruling_party_popularity = {
@@ -112,91 +118,180 @@ change_ruling_party_popularity = {
 	}
 }
 
-increase_ruling_party_popularity_by_2 = {
-	set_temp_variable = { ideology_change_var = 0.02 }
-	add_popularity = {
-		ideology = var:current_party_ideology_group
-		popularity = ideology_change_var
-	}
-}
 
-
-add_natpop_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:national_populist }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = natpop_will_join_coalition_tt
-}
-
-add_pataut_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = pataut_will_join_coalition_tt
-}
-
-add_authdem_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = authdem_will_join_coalition_tt
-}
-
-add_soccon_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:social_conservative }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = soccon_will_join_coalition_tt
-}
-
-add_marlib_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:market_liberal }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = marlib_will_join_coalition_tt
-}
-
-add_soclib_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:social_liberal }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = soclib_will_join_coalition_tt
-}
-
-add_socdem_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:social_democrat }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = socdem_will_join_coalition_tt
-}
-
-add_radsoc_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:radical_socialist }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = radsoc_will_join_coalition_tt
-}
-
-add_synd_to_coalition = {
-	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:syndicalist }
-		add_to_coalition = yes
-	}
-	custom_effect_tooltip = syn_will_join_coalition_tt
-}
-
-add_tot_to_coalition = {
+add_totalist_to_coalition = {
 	hidden_effect = {
 		set_temp_variable = { coalition_partner_var = token:totalist }
 		add_to_coalition = yes
 	}
-	custom_effect_tooltip = tot_will_join_coalition_tt
+	custom_effect_tooltip = totalist_will_join_coalition_tt
+}
+
+add_radical_socialist_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:radical_socialist }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = radical_socialist_will_join_coalition_tt
+}
+
+add_social_democrat_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_democrat }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = social_democrat_will_join_coalition_tt
+}
+
+add_social_liberal_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_liberal }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = social_liberal_will_join_coalition_tt
+}
+
+add_market_liberal_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:market_liberal }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = market_liberal_will_join_coalition_tt
+}
+
+add_social_conservative_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_conservative }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = social_conservative_will_join_coalition_tt
+}
+
+add_authoritarian_democrat_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = authoritarian_democrat_will_join_coalition_tt
+}
+
+add_paternal_autocrat_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = paternal_autocrat_will_join_coalition_tt
+}
+
+add_national_populistfuturist_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:national_populistfuturist }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = national_populistfuturist_will_join_coalition_tt
+}
+
+add_corporatocratic_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:corporatocratic }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = corporatocratic_will_join_coalition_tt
+}
+
+add_theocratic_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:theocratic }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = theocratic_will_join_coalition_tt
+}
+
+
+remove_totalist_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:totalist }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = totalist_will_leave_coalition_tt
+}
+
+remove_radical_socialist_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:radical_socialist }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = radical_socialist_will_leave_coalition_tt
+}
+
+remove_social_democrat_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_democrat }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = social_democrat_will_leave_coalition_tt
+}
+
+remove_social_liberal_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_liberal }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = social_liberal_will_leave_coalition_tt
+}
+
+remove_market_liberal_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:market_liberal }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = market_liberal_will_leave_coalition_tt
+}
+
+remove_social_conservative_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:social_conservative }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = social_conservative_will_leave_coalition_tt
+}
+
+remove_authoritarian_democrat_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = authoritarian_democrat_will_leave_coalition_tt
+}
+
+remove_paternal_autocrat_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = paternal_autocrat_will_leave_coalition_tt
+}
+
+remove_national_populistfuturist_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:national_populistfuturist }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = national_populistfuturist_will_leave_coalition_tt
+}
+
+remove_corporatocratic_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:corporatocratic }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = corporatocratic_will_leave_coalition_tt
+}
+
+remove_theocratic_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:theocratic }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = theocratic_will_leave_coalition_tt
 }

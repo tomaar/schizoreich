@@ -4,10 +4,7 @@ on_actions = {
 			every_country = {
 				set_country_flag = cocka
 				add_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ruling_party }
-				set_variable = {
-					var = ruling_party_pp_gain
-					value = party_popularity@ruling_party
-				}
+				recalculate_ruling_party_pp = yes
 			}
 		}
 	}
@@ -18,10 +15,7 @@ on_actions = {
 				limit = { 
 					has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ruling_party }
 				}
-				set_variable = {
-					var = ruling_party_pp_gain
-					value = party_popularity@ruling_party
-				}
+				recalculate_ruling_party_pp = yes
 			}
 		}
 	}
