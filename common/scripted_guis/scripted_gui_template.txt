@@ -1,0 +1,12 @@
+scripted_gui = {
+  government_tab = {
+		window_name = "government_tab_window"
+		context_type = player_context
+		visible = {
+			is_ai = no
+		}
+		ai_enabled = {
+			always = no
+		}
+	}
+}
