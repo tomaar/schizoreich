@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "government_tab_window"
 		position = { x = 0 y = 0}	
-		size = { width = 800 height= 650 }
+		size = { width = 800 height = 650 }
 		orientation = center
 		origo = center
 		fade_time = 100
@@ -17,22 +17,65 @@ guiTypes = {
 			quadTextureSprite ="GFX_government_tab_window_background"
 		}
 
-		#iconType ={
-		#	name ="production_header_bg"
-		#	spriteType = "GFX_header_bg"
-		#	position = { x= 5 y = 7 }
-		#	Orientation = "UPPER_LEFT"
-		#}	
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = -50 y = 20 }
+			Orientation = "UPPER_RIGHT"
+		}
+		
+		buttonType ={
+			name ="coalitions_open"
+			spriteType = "GFX_closebutton"
+			position = { x = -50 y = 150 }
+			Orientation = "UPPER_RIGHT"
+		}
+	}
+ 
+	containerWindowType = {
+		name = "government_tab_window_coalitions"
+		position = { x = -530 y = -140 }	
+		size = { width = 220 height= 370 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
 
-		#instantTextboxType = {
-		#	name = "political_title"
-		#	position = { x = 45 y = 8 }
-		#	font = "hoi_36header"
-		#	borderSize = {x = 0 y = 0}
-		#	text = "POLITICAL_POLITICAL"
-		#	maxWidth = 400
-		#	maxHeight = 20
-		#	fixedsize = yes
-		#}
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_government_tab_window_coalitions_background"
+		}
+
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = -50 y = 20 }
+			Orientation = "UPPER_RIGHT"
+		}
+
+		instantTextboxType = {
+			name = "political_title"
+			position = { x = 30 y = 20 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "Coalition members"
+			maxWidth = 140
+			maxHeight = 300
+			fixedsize = yes
+		}
+
+		instantTextboxType = {
+			name = "parties_list"
+			position = { x = 30 y = 60 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "coalition_list"
+			maxWidth = 160
+			maxHeight = 300
+			fixedsize = yes
+		}
 	}
 }

@@ -4,4 +4,12 @@ spriteTypes = {
 		name = "GFX_government_tab_window_background"
 		textureFile = "/gfx/interface/scripted_gui/government_tab/government_tab_window_background.dds"
 	}
+	spriteType = {
+		name = "GFX_government_tab_window_coalitions_background"
+		textureFile = "/gfx/interface/scripted_gui/government_tab/government_tab_window_coalitions_background.dds"
+	}
+
+
+
+	
 }

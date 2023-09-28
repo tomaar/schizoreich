@@ -118,7 +118,6 @@ change_ruling_party_popularity = {
 	}
 }
 
-
 add_totalist_to_coalition = {
 	hidden_effect = {
 		set_temp_variable = { coalition_partner_var = token:totalist }
@@ -183,12 +182,20 @@ add_paternal_autocrat_to_coalition = {
 	custom_effect_tooltip = paternal_autocrat_will_join_coalition_tt
 }
 
-add_national_populistfuturist_to_coalition = {
+add_national_populist_to_coalition = {
 	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:national_populistfuturist }
+		set_temp_variable = { coalition_partner_var = token:national_populist }
 		add_to_coalition = yes
 	}
-	custom_effect_tooltip = national_populistfuturist_will_join_coalition_tt
+	custom_effect_tooltip = national_populist_will_join_coalition_tt
+}
+
+add_futurist_to_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:futurist }
+		add_to_coalition = yes
+	}
+	custom_effect_tooltip = futurist_will_join_coalition_tt
 }
 
 add_corporatocratic_to_coalition = {
@@ -272,12 +279,20 @@ remove_paternal_autocrat_from_coalition = {
 	custom_effect_tooltip = paternal_autocrat_will_leave_coalition_tt
 }
 
-remove_national_populistfuturist_from_coalition = {
+remove_national_populist_from_coalition = {
 	hidden_effect = {
-		set_temp_variable = { coalition_partner_var = token:national_populistfuturist }
+		set_temp_variable = { coalition_partner_var = token:national_populist }
 		remove_from_coalition = yes
 	}
-	custom_effect_tooltip = national_populistfuturist_will_leave_coalition_tt
+	custom_effect_tooltip = national_populist_will_leave_coalition_tt
+}
+
+remove_futurist_from_coalition = {
+	hidden_effect = {
+		set_temp_variable = { coalition_partner_var = token:futurist }
+		remove_from_coalition = yes
+	}
+	custom_effect_tooltip = futurist_will_leave_coalition_tt
 }
 
 remove_corporatocratic_from_coalition = {
