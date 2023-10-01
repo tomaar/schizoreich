@@ -16,8 +16,6 @@ characters={
 		}
 		country_leader = {
 			ideology = buonapartism
-			traits = {
-			}
 		}
 	}
 }

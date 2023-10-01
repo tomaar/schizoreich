@@ -19,5 +19,10 @@ spriteTypes = {
         name = GFX_portrait_ITA_napoleon_VI
         textureFile = gfx/leaders/ITA/Portrait_ITA_Napoleon_VI.dds
     }
+
+    spriteType = {
+        name = GFX_portrait_SPR_manuel_hedilla
+        textureFile = gfx/leaders/SPR/Portrait_SPR_Manuel_Hedilla.dds
+    }
 	
 }

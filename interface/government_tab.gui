@@ -24,58 +24,64 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 		}
 		
-		buttonType ={
-			name ="coalitions_open"
-			spriteType = "GFX_closebutton"
-			position = { x = -50 y = 150 }
-			Orientation = "UPPER_RIGHT"
-		}
-	}
+		#buttonType ={
+		#	name ="coalitions_open"
+		#	quadTextureSprite ="GFX_button_94x31"
+		#	font = "hoi_18mbs"
+		#	text = "Coalition"			
+		#	position = { x = 20 y = 20 }
+		#	Orientation = "UPPER_LEFT"
+		#	clicksound = click_checkbox
+		#	oversound = ui_menu_over
+		#}
+		
  
-	containerWindowType = {
-		name = "government_tab_window_coalitions"
-		position = { x = -530 y = -140 }	
-		size = { width = 220 height= 370 }
-		orientation = center
-		origo = center
-		fade_time = 100
-		moveable = yes
-		fade_type = linear
-		click_to_front = no
-		clipping = no
+		containerWindowType = {
+			name = "government_tab_window_coalitions"
+			position = { x = -530 y = -140 }	
+			size = { width = 220 height= 370 }
+			orientation = center
+			origo = center
+			fade_time = 100
+			moveable = no
+			fade_type = linear
+			click_to_front = no
+			clipping = no
+			
 
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_government_tab_window_coalitions_background"
-		}
+			background = {
+				name = "background_coalitions"		
+				quadTextureSprite ="GFX_government_tab_window_coalitions_background"
+			}
 
-		buttonType ={
-			name ="close_button"
-			spriteType = "GFX_closebutton"
-			position = { x = -50 y = 20 }
-			Orientation = "UPPER_RIGHT"
-		}
+			#buttonType ={
+			#	name ="close_button_coalitions"
+			#	spriteType = "GFX_closebutton"
+			#	position = { x = -50 y = 20 }
+			#	Orientation = "UPPER_RIGHT"
+			#}
 
-		instantTextboxType = {
-			name = "political_title"
-			position = { x = 30 y = 20 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "Coalition members"
-			maxWidth = 140
-			maxHeight = 300
-			fixedsize = yes
-		}
+			instantTextboxType = {
+				name = "political_title_coalitions"
+				position = { x = 45 y = 20 }
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 0}
+				text = "Coalition members"
+				maxWidth = 140
+				maxHeight = 300
+				fixedsize = yes
+			}
 
-		instantTextboxType = {
-			name = "parties_list"
-			position = { x = 30 y = 60 }
-			font = "hoi_16mbs"
-			borderSize = {x = 0 y = 0}
-			text = "coalition_list"
-			maxWidth = 160
-			maxHeight = 300
-			fixedsize = yes
+			instantTextboxType = {
+				name = "parties_list"
+				position = { x = 30 y = 60 }
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "coalition_list"
+				maxWidth = 160
+				maxHeight = 300
+				fixedsize = yes
+			}
 		}
 	}
 }

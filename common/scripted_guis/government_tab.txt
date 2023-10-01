@@ -5,36 +5,13 @@ scripted_gui = {
 		visible = {
 			has_country_flag = government_tab_open
 		}
+		triggers = {
+		}
 		effects = {
 			close_button_click = {
 				clr_country_flag = government_tab_open
 			}
-			coalitions_open_click = {
-				if = {
-					limit = {
-						has_country_flag = government_tab_coalitions_open
-					}
-					clr_country_flag = government_tab_coalitions_open
-				}
-				else = {
-					set_country_flag = government_tab_coalitions_open
-				}
-			}
-		}
-		ai_enabled = {
-			always = no
-		}
-	}
-	government_tab_coalitions = {
-		window_name = "government_tab_window_coalitions"
-		context_type = player_context
-		parent_window_token = government_tab
-		visible = {
-			has_country_flag = government_tab_open
-			has_country_flag = government_tab_coalitions_open
-		}
-		effects = {
-			close_button_click = {
+			close_button_coalitions_click = {
 				clr_country_flag = government_tab_coalitions_open
 			}
 		}

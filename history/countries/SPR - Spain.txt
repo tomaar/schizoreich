@@ -33,6 +33,8 @@ if = {
 	}
 }
 
+recruit_character = SPR_manuel_hedilla
+
 set_politics = {
 	ruling_party = totalist
 	last_election = "1933.2.16"

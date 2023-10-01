@@ -22,10 +22,19 @@
 #
 #	disable_party_popularity_PP_gain = yes -- disables popularity PP gain altogether
 
+keep_coalition = {
+	set_country_flag = keep_coalition_flag
+	set_variable = { keep_coalition_var = current_party_ideology_group }
+}
+
 recalculate_ruling_party_pp = {
 	set_variable = {
 		var = ruling_party_pp_gain
 		value = party_popularity@ruling_party
+	}
+	multiply_variable = {
+		var = ruling_party_pp_gain
+		value = 1.5
 	}
 }
 
@@ -34,8 +43,12 @@ recalculate_coalition_pp = {
 
 	for_each_loop = {
 		array = coalition_partners
-		value = v
-		add_to_variable = { coalition_pp_gain = party_popularity@var:v }
+		value = i
+		add_to_variable = { coalition_pp_gain = party_popularity@var:i }
+	}
+	multiply_variable = {
+		var = coalition_pp_gain
+		value = 0.5
 	}
 }
 

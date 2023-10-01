@@ -4,6 +4,8 @@ ideologies = {
 		types = {
 			communism = {
 			}
+			national_syndicalism = {
+			}
 		}
 		color = { 127 0 0 }
 		rules = {

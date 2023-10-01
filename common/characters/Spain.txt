@@ -1,2 +1,13 @@
 characters={
+	SPR_manuel_hedilla = {
+		name = SPR_manuel_hedilla
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_manuel_hedilla
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism
+		}
+	}
 }

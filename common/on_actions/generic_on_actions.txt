@@ -53,9 +53,36 @@ on_actions = {
 	#		set_variable = { cock2 = old_ideology_token }
 	#	}
 	#}
-	on_ruling_party_change = {
+
+	on_ruling_party_change = { # if a coalition member comes to power, remove it from the coalition and add former ruling party
 		effect = {
-			end_coalition = yes
+
+			if = {
+				limit = {
+					has_country_flag = keep_coalition_flag
+				}
+
+				if = {
+					limit = { 
+						is_in_array = { coalition_partners = current_party_ideology_group }
+					}
+					
+					set_temp_variable = { coalition_partner_var = keep_coalition_var }
+					add_to_coalition = yes
+					
+					set_temp_variable = { coalition_partner_var = current_party_ideology_group }
+					remove_from_coalition = yes
+					
+					recalculate_ruling_party_pp = yes
+					recalculate_coalition_pp = yes
+				}
+
+				clr_country_flag = keep_coalition_flag
+				clear_variable = keep_coalition_var
+			}
+			else = {
+				end_coalition = yes
+			}
 		}
 	}
 }
