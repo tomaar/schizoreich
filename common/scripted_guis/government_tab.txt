@@ -11,9 +11,9 @@ scripted_gui = {
 			close_button_click = {
 				clr_country_flag = government_tab_open
 			}
-			close_button_coalitions_click = {
-				clr_country_flag = government_tab_coalitions_open
-			}
+			#close_button_coalitions_click = {
+			#	clr_country_flag = government_tab_coalitions_open
+			#}
 		}
 		ai_enabled = {
 			always = no
