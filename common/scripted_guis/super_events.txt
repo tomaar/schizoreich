@@ -1,0 +1,43 @@
+scripted_gui = {
+	Pax_Super_Event_Window = {
+		context_type = player_context
+		window_name = "Super_Event_Window"
+
+		visible = {
+			has_global_flag  = Super_Event_Visible
+		}
+
+		triggers = {
+			Super_Event_Image_Default_visible = {
+				has_global_flag = Super_Event_Visible_NoImage
+			}
+		}
+
+		### EXAMPLE ###
+		#triggers = {
+		#	Super_Event_Image_Second_Weltkrieg_visible = {
+		#		has_global_flag = GER_Second_Weltkrieg
+		#	}
+		#}
+
+		properties = {
+			Super_Event_Image_Default = {
+				image = "[get_my_superevent_texture]"
+			}
+		}
+
+		effects = {
+			Super_Event_Close_click = {
+				clr_global_flag = Super_Event_Visible
+
+				### EXAMPLE ###
+				#if = {
+				#	limit = {	
+				#		has_global_flag = GER_Second_Weltkrieg
+				#	}
+				#	clr_global_flag  = GER_Second_Weltkrieg
+				#}
+			}
+		}
+	}
+}

@@ -1,0 +1,107 @@
+defined_text = { #SUPER EVENT TITLES
+	name = get_super_event_title
+	
+	### EXAMPLE ###
+	#text = {
+	#	trigger = {
+	#		has_global_flag = Ukrainian_CW_superev
+	#	}
+	#	localization_key = "GFX_SPEVNT_UKRAINIAN_CW"
+	#}
+}
+
+defined_text = { #SUPER EVENT QUOTES
+	name = get_superevent_quote
+	
+	### EXAMPLE ###
+	#text = { 
+	#	trigger = {
+	#		has_global_flag = GER_Second_Weltkrieg
+	#	}
+	#	localization_key = "GFX_SPEVNT_Second_Weltkrieg_TEXT"
+	#}
+}
+
+defined_text = { #SUPER EVENT REMARKS
+	name = get_superevent_remark
+	
+	### EXAMPLE ###
+	#text = { 
+	#	trigger = {
+	#		has_global_flag = GER_Second_Weltkrieg
+	#	}
+	#	localization_key = "GFX_SPEVNT_Second_Weltkrieg_REMARK"
+	#}
+}
+
+defined_text = { #SUPER EVENT DESCS
+	name = get_superevent_desc
+	
+	### EXAMPLE ###
+	#text = { 
+	#	trigger = {
+	#		has_global_flag = GER_Second_Weltkrieg
+	#	}
+	#	localization_key = "GFX_SPEVNT_Second_Weltkrieg_DESC"
+	#}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetUltimateName
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_2WK"
+	}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetTextPart1
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_2WKP1"
+	}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetTextPart2
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_2WKP2"
+	}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetTextPart3
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_2WKP3"
+	}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetTextPart4
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_2WKP4"
+	}
+}
+
+defined_text = { #ULTIMATE RADIO
+	name = GetPart2
+	text = { 
+		trigger = {
+			has_global_flag = radio_2wk
+		}
+		localization_key = "ULT_WK_P2"
+	}
+}
