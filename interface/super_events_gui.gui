@@ -26,6 +26,11 @@ guiTypes = {
 		#	spriteType = "GFX_SPEVNT_Second_Weltkrieg"
 		#	position = { x = -150 y = -45 }
 		#}
+		iconType = {
+			name ="Super_Event_Image_Second_Weltkrieg"
+			spriteType = "GFX_SPEVNT_Second_Weltkrieg"
+			position = { x = -150 y = -45 }
+		}
 		
 
 		instantTextBoxType = {

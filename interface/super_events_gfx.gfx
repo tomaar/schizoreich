@@ -16,7 +16,12 @@ spriteTypes = {
 		texturefile = "gfx/super_events/Super_Event_Image_Test.png"
 		legacy_lazy_load = no
 	}
-
+	### EXAMPLE ###
+	#spriteType = {
+	#	name = "GFX_SPEVNT_Second_Weltkrieg"
+	#	texturefile = "gfx/super_events/SPEVNT_Second_Weltkrieg.png"
+	#	legacy_lazy_load = no
+	#}
 	spriteType = {
 		name = "GFX_SPEVNT_Second_Weltkrieg"
 		texturefile = "gfx/super_events/SPEVNT_Second_Weltkrieg.png"

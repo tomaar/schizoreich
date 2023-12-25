@@ -19,6 +19,11 @@ scripted_gui = {
 		#		has_global_flag = GER_Second_Weltkrieg
 		#	}
 		#}
+		triggers = {
+			Super_Event_Image_Second_Weltkrieg_visible = {
+				has_global_flag = GER_Second_Weltkrieg
+			}
+		}
 
 		properties = {
 			Super_Event_Image_Default = {
@@ -37,6 +42,7 @@ scripted_gui = {
 				#	}
 				#	clr_global_flag  = GER_Second_Weltkrieg
 				#}
+				clr_global_flag  = GER_Second_Weltkrieg
 			}
 		}
 	}

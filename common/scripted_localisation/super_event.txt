@@ -2,6 +2,12 @@ defined_text = { #SUPER EVENT TITLES
 	name = get_super_event_title
 	
 	### EXAMPLE ###
+	text = {
+		trigger = {
+			has_global_flag = Ukrainian_CW_superev
+		}
+		localization_key = "GFX_SPEVNT_UKRAINIAN_CW"
+	}
 	#text = {
 	#	trigger = {
 	#		has_global_flag = Ukrainian_CW_superev
@@ -14,6 +20,12 @@ defined_text = { #SUPER EVENT QUOTES
 	name = get_superevent_quote
 	
 	### EXAMPLE ###
+	text = { 
+		trigger = {
+			has_global_flag = GER_Second_Weltkrieg
+		}
+		localization_key = "GFX_SPEVNT_Second_Weltkrieg_TEXT"
+	}
 	#text = { 
 	#	trigger = {
 	#		has_global_flag = GER_Second_Weltkrieg
@@ -32,6 +44,12 @@ defined_text = { #SUPER EVENT REMARKS
 	#	}
 	#	localization_key = "GFX_SPEVNT_Second_Weltkrieg_REMARK"
 	#}
+	text = { 
+		trigger = {
+			has_global_flag = GER_Second_Weltkrieg
+		}
+		localization_key = "GFX_SPEVNT_Second_Weltkrieg_REMARK"
+	}
 }
 
 defined_text = { #SUPER EVENT DESCS
@@ -44,6 +62,12 @@ defined_text = { #SUPER EVENT DESCS
 	#	}
 	#	localization_key = "GFX_SPEVNT_Second_Weltkrieg_DESC"
 	#}
+	text = { 
+		trigger = {
+			has_global_flag = GER_Second_Weltkrieg
+		}
+		localization_key = "GFX_SPEVNT_Second_Weltkrieg_DESC"
+	}
 }
 
 defined_text = { #ULTIMATE RADIO
