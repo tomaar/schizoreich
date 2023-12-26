@@ -35,10 +35,6 @@ spriteTypes = {
 		texturefile = "gfx/super_events/test_smol.png"
 		legacy_lazy_load = no
 	}
-
-
-
-
 	
 	spriteType = {
 		name = "GFX_REMARK"
