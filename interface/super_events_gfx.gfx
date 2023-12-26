@@ -27,8 +27,18 @@ spriteTypes = {
 		texturefile = "gfx/super_events/SPEVNT_Second_Weltkrieg.png"
 		legacy_lazy_load = no
 	}
-	
-	
+
+
+
+	spriteType = {
+		name = "test_smol"
+		texturefile = "gfx/super_events/test_smol.png"
+		legacy_lazy_load = no
+	}
+
+
+
+
 	
 	spriteType = {
 		name = "GFX_REMARK"

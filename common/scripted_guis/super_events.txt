@@ -7,12 +7,6 @@ scripted_gui = {
 			has_global_flag  = Super_Event_Visible
 		}
 
-		triggers = {
-			Super_Event_Image_Default_visible = {
-				has_global_flag = Super_Event_Visible_NoImage
-			}
-		}
-
 		### EXAMPLE ###
 		#triggers = {
 		#	Super_Event_Image_Second_Weltkrieg_visible = {
@@ -20,10 +14,12 @@ scripted_gui = {
 		#	}
 		#}
 		triggers = {
-			Super_Event_Image_Second_Weltkrieg_visible = {
+			smol_test_visible = {
 				has_global_flag = GER_Second_Weltkrieg
 			}
 		}
+
+		
 
 		properties = {
 			Super_Event_Image_Default = {
