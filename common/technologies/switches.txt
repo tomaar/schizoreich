@@ -1,0 +1,63 @@
+technologies = {
+	switch_atgm = {
+		path = {
+			leads_to_tech = switch_atgm_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = switch_atgm_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = switch_folder
+			position = { x = 6 y = 0 }
+		}
+	}
+
+
+	switch_atgm_0 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		
+		research_cost = 2
+		
+		XOR = {
+			switch_atgm_1
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	switch_atgm_1 = {
+
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		
+		research_cost = 2
+		
+		XOR = {
+			switch_atgm_0
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
