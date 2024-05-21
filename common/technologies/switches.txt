@@ -1,5 +1,10 @@
 technologies = {
 	switch_atgm = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+
 		path = {
 			leads_to_tech = switch_atgm_0
 			research_cost_coeff = 1
@@ -8,25 +13,42 @@ technologies = {
 			leads_to_tech = switch_atgm_1
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = switch_atgm_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = switch_atgm_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = switch_atgm_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = switch_atgm_5
+			research_cost_coeff = 1
+		}
 
-		research_cost = 1.5
+		research_cost = 0
 		start_year = 1936
 		folder = {
 			name = switch_folder
-			position = { x = 6 y = 0 }
+			position = { x = 5 y = 0 }
 		}
 	}
 
 
 	switch_atgm_0 = {
-
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
 		
-		research_cost = 2
+		research_cost = 0
 		
 		XOR = {
+			switch_atgm_5
+			switch_atgm_4
+			switch_atgm_3
+			switch_atgm_2
 			switch_atgm_1
 		}
 		
@@ -39,21 +61,115 @@ technologies = {
 			factor = 0
 		}
 	}
-	switch_atgm_1 = {
 
+	switch_atgm_1 = {
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
 		
-		research_cost = 2
+		research_cost = 0
 		
 		XOR = {
+			switch_atgm_5
+			switch_atgm_4
+			switch_atgm_3
+			switch_atgm_2
 			switch_atgm_0
 		}
 		
 		folder = {
 			name = switch_folder
 			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_atgm_2 = {
+		industrial_capacity_factory = 0.15
+		
+		research_cost = 0
+		
+		XOR = {
+			switch_atgm_5
+			switch_atgm_4
+			switch_atgm_3
+			switch_atgm_1
+			switch_atgm_0
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_atgm_3 = {
+		industrial_capacity_factory = 0.15
+		
+		research_cost = 0
+		
+		XOR = {
+			switch_atgm_0
+			switch_atgm_1
+			switch_atgm_2
+			switch_atgm_4
+			switch_atgm_5
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_atgm_4 = {
+		industrial_capacity_factory = 0.15
+		
+		research_cost = 0
+		
+		XOR = {
+			switch_atgm_0
+			switch_atgm_1
+			switch_atgm_2
+			switch_atgm_3
+			switch_atgm_5
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_atgm_5 = {
+		industrial_capacity_factory = 0.15
+		
+		research_cost = 0
+		
+		XOR = {
+			switch_atgm_0
+			switch_atgm_1
+			switch_atgm_2
+			switch_atgm_3
+			switch_atgm_4
+		}
+		
+		folder = {
+			name = switch_folder
+			position = { x = 10 y = 2 }
 		}
 		
 		ai_will_do = {
