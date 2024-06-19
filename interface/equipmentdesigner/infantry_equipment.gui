@@ -1,12 +1,12 @@
 guiTypes = {
 	containerWindowType = {
-		name = "equipment_designer_infantry_equipment"
+		name = "equipment_designer_custom_infantry_equipment"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_infantry_equipment"
+			spriteType = "GFX_TC_custom_infantry_equipment"
 			position = { x=0 y=0 }
 		}
 

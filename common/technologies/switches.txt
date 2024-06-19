@@ -2,19 +2,55 @@ technologies = {
 	switch_atgm = {
 
 		enable_equipments = {
-			infantry_equipment_0
+			custom_infantry_equipment_0
 		}
 
 		enable_equipment_modules = {
-			minimum_protective
-			tank_heavy_machine_gun
-			secondary_turret_hmg
-			additional_machine_guns
-			prewar_weapon
-			prewar_anti_tank
-			bandaging_package
-			sapper_shovels
-			binoculars
+			bolt_action0
+			bolt_action1
+			bolt_action2
+			bolt_action3
+			bolt_action4
+			carbine1
+			carbine2
+			carbine3
+			carbine4
+			assault_rifle1
+			assault_rifle2
+			assault_rifle3
+			assault_rifle4
+			submachine_gun1
+			submachine_gun2
+			submachine_gun3
+			submachine_gun4
+			ragged_clothes
+			basic_uniform
+			simple_protective_armour
+			partial_body_armour
+			full_body_armour
+			mortar0
+			mortar1
+			mortar2
+			mortar3
+			mortar4
+			manpads0
+			manpads1
+			manpads2
+			hmg0
+			hmg1
+			hmg2
+			hmg3
+			hmg4
+			handheld_at0
+			handheld_at1
+			handheld_at2
+			rocket_launcher0
+			rocket_launcher1
+			rocket_launcher2
+			rocket_launcher3
+			atgm0	
+			atgm1
+			atgm2
 		}
 		
 		enable_subunits = {

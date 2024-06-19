@@ -1,11 +1,11 @@
 # All infantry equipment
 
 equipments = {
-	infantry_equipment = {
+	custom_infantry_equipment = {
 		year = 1936
 		is_archetype = yes
 
-		picture = archetype_infantry_equipment
+		picture = archetype_custom_infantry_equipment
 		is_buildable = no
 		type = armor
 		interface_category = interface_category_land
@@ -64,69 +64,119 @@ equipments = {
 			small_arms_slot = {
 				required = yes
 				allowed_module_categories = {
-					infantry_weapon_type
+					bolt_action_type
+					carbine_type
+					assault_rifle_type
+					submachine_gun_type
 				}
 			}
 			
-			auxiliary_armament_slot = {
+			body_armour_slot = {
+				required = yes
+				allowed_module_categories = {
+					body_armour_type
+				}
+			}
+
+			engineering_tools_slot = {
+				required = yes
+				allowed_module_categories = {
+					engineering_tools_type
+				}
+			}
+
+			something_else_slot = {
 				required = no
 				allowed_module_categories = {
-					infantry_fire_support_attack_type
-					infantry_fire_support_defence_type
+					something_else_type
 				}
 			}
 
-			anti_tank_slot = {
-				required = yes
+			something_else2_slot = {
+				required = no
 				allowed_module_categories = {
-					infantry_anti_tank_type
+					something_else_type
 				}
 			}
 
-			personal_protective_slot = {
-				required = yes
+			something_else3_slot = {
+				required = no
 				allowed_module_categories = {
-					infantry_personal_protective
+					something_else_type
+				}
+			}
+
+
+			# Heavy Equipment Slots
+
+			heavy_equipment_slot0 = {
+				required = no
+				allowed_module_categories = {
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
 				}
 			}
 			
-			special_type_slot_1 = {
+			heavy_equipment_slot1 = {
 				required = no
 				allowed_module_categories = {
-					infantry_special_modules
-					infantry_special_modules_extend
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
 				}
 			}
 
-			special_type_slot_2 = {
+			heavy_equipment_slot2 = {
 				required = no
 				allowed_module_categories = {
-					infantry_special_modules
-					infantry_special_modules_extend
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
+
 				}
 			}
 
-			special_type_slot_3 = {
+			heavy_equipment_slot3 = {
 				required = no
 				allowed_module_categories = {
-					infantry_special_modules
-					infantry_special_modules_extend
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
 				}
 			}
 
-			special_type_slot_4 = {
+			heavy_equipment_slot4 = {
 				required = no
 				allowed_module_categories = {
-					infantry_special_modules
-					infantry_special_modules_extend
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
 				}
 			}
 
-			special_type_slot_5 = {
+			heavy_equipment_slot5 = {
 				required = no
 				allowed_module_categories = {
-					infantry_special_modules
-					infantry_special_modules_extend
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
+				}
+			}
+
+			heavy_equipment_slot6 = {
+				required = no
+				allowed_module_categories = {
+					mortar_type
+					manpads_type
+					heavy_machine_gun_type
+					rocket_launcher_type
 				}
 			}
 		}
@@ -139,9 +189,9 @@ equipments = {
 		 maximum_speed = 5
 	}
 
-	infantry_equipment_0 = {
+	custom_infantry_equipment_0 = {
 		year = 1936
-		archetype = infantry_equipment
+		archetype = custom_infantry_equipment
 
 		module_slots = inherit
 
@@ -149,18 +199,16 @@ equipments = {
 			small_arms_slot = prewar_weapon
 			anti_tank_slot = prewar_anti_tank
 			personal_protective_slot = minimum_protective
-			special_type_slot_1 = bandaging_package
-			special_type_slot_2 = sapper_shovels
 		}
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 
-	infantry_equipment_1 = {
+	custom_infantry_equipment_1 = {
 		year = 1918
-		parent = infantry_equipment_0
-		archetype = infantry_equipment
+		parent = custom_infantry_equipment_0
+		archetype = custom_infantry_equipment
 
 		module_slots = inherit
 
@@ -176,11 +224,11 @@ equipments = {
 		visual_level = 0
 	}
 
-	infantry_equipment_2 = {
+	custom_infantry_equipment_2 = {
 		year = 1918
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_1
+		archetype = custom_infantry_equipment
+		parent = custom_infantry_equipment_1
 		module_slots = inherit
 
 		default_modules = {
@@ -195,11 +243,11 @@ equipments = {
 		visual_level = 0
 	}
 
-	infantry_equipment_3 = {
+	custom_infantry_equipment_3 = {
 		year = 1918
 
-		archetype = infantry_equipment
-		parent = infantry_equipment_2
+		archetype = custom_infantry_equipment
+		parent = custom_infantry_equipment_2
 		module_slots = inherit
 
 		default_modules = {

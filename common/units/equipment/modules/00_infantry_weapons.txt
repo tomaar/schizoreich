@@ -1,99 +1,872 @@
-equipment_modules = {
+#TODO test these modifiers
+#fuel_consumption = 0.1
+#fuel_consumption_factor = 0.1
+#supply_consumption = 0.1
+#supply_consumption_factor = 0.1
+#suppression = 0.1
+#suppression_factor = 0.1
+#entrenchment = 0.1
+#experience_loss_factor = -0.1
+#equipment_capture_factor = 0.1
+#recon = 0.1
+#reliability = 0.1
+#casualty_trickleback = 0.1
+#initiative = 0.1
+#max_organisation = 0.1
+#air_defence = 0.1
+#acclimatization_cold_climate_gain_factor = 0.1
+#anti_air_attack = 0.1
+#default_morale = 0.1
+#air_ground_attack = 0.1 
+#night_penalty = -0.1
 
+
+
+equipment_modules = {
 	# Main Armament 
-		prewar_weapon = {
-			category = infantry_weapon_type
+		bolt_action0 = {
+			category = bolt_action_type
 
 			add_stats = {
-				#Defensive Abilities
-				 defense = 20
-				 breakthrough = 2
-
-				#Offensive Abilities
-				 soft_attack = 3
-
-				#Misc Abilities
-				 reliability = 0.9
-				 build_cost_ic = 0.23
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
 			}
 
 			xp_cost = 0
 
 			build_cost_resources = {
-				steel = 2
+				# TODO
 			}
 		}
 
-		regular_weapon = {
-			category = infantry_weapon_type
-			parent = prewar_weapon
+		bolt_action1 = {
+			category = bolt_action_type
 
 			add_stats = {
-				#Defensive Abilities
-				 defense = 22
-				 breakthrough = 3
-
-				#Offensive Abilities
-				 soft_attack = 6
-
-				#Misc Abilities
-				 reliability = 0.9
-				 build_cost_ic = 0.27
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
 			}
-			
-			xp_cost = 2
+
+			xp_cost = 0
+
 			build_cost_resources = {
-				steel = 2
+				# TODO
 			}
 		}
 
-		improved_weapon = {
-			category = infantry_weapon_type
-			parent = regular_weapon
+		bolt_action2 = {
+			category = bolt_action_type
 
 			add_stats = {
-				#Defensive Abilities
-				 defense = 28
-				 breakthrough = 4
-
-				#Offensive Abilities
-				 soft_attack = 9
-
-				#Misc Abilities
-				 reliability = 0.7
-				 build_cost_ic = 0.32
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
 			}
 
-			xp_cost = 2
+			xp_cost = 0
 
 			build_cost_resources = {
-				steel = 2
+				# TODO
 			}
 		}
 
-		advanced_weapon = {
-			category = infantry_weapon_type
-			parent = improved_weapon
+		bolt_action3 = {
+			category = bolt_action_type
 
 			add_stats = {
-				#Defensive Abilities
-				 defense = 34
-				 breakthrough = 5
-
-				#Offensive Abilities
-				 soft_attack = 12
-
-				#Misc Abilities
-				 reliability = 0.8
-				 build_cost_ic = 0.37
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
 			}
 
-			xp_cost = 2
+			xp_cost = 0
 
 			build_cost_resources = {
-				steel = 2
+				# TODO
 			}
 		}
+
+		bolt_action4 = {
+			category = bolt_action_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		carbine1 = {
+			category = carbine_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		carbine2 = {
+			category = carbine_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		carbine3 = {
+			category = carbine_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		carbine4 = {
+			category = carbine_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		assault_rifle1 = {
+			category = assault_rifle_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		assault_rifle2 = {
+			category = assault_rifle_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		assault_rifle3 = {
+			category = assault_rifle_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		assault_rifle4 = {
+			category = assault_rifle_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		submachine_gun1 = {
+			category = submachine_gun_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		submachine_gun2 = {
+			category = submachine_gun_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		submachine_gun3 = {
+			category = submachine_gun_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+		submachine_gun4 = {
+			category = submachine_gun_type
+
+			add_stats = {
+				defense = 20
+				breakthrough = 2
+				soft_attack = 3
+				ap_attack = 1
+				reliability = 0.9
+				build_cost_ic = 0.23
+			}
+
+			xp_cost = 0
+
+			build_cost_resources = {
+				# TODO
+			}
+		}
+
+	# Body Armour
+	ragged_clothes = {
+		category = body_armour_type
+
+		add_stats = {
+			max_strength = 2
+			armor_value = 1
+			build_cost_ic = 0.1
+		}
+		multiply_stats = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	basic_uniform = {
+		category = body_armour_type
+
+		add_stats = {
+			max_strength = 2
+			armor_value = 1
+			build_cost_ic = 0.1
+		}
+		multiply_stats = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	simple_protective_armour = {
+		category = body_armour_type
+
+		add_stats = {
+			max_strength = 2
+			armor_value = 1
+			build_cost_ic = 0.1
+		}
+		multiply_stats = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	partial_body_armour = {
+		category = body_armour_type
+
+		add_stats = {
+			max_strength = 2
+			armor_value = 1
+			build_cost_ic = 0.1
+		}
+		multiply_stats = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	full_body_armour = {
+		category = body_armour_type
+
+		add_stats = {
+			max_strength = 2
+			armor_value = 1
+			build_cost_ic = 0.1
+		}
+		multiply_stats = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	## HEAVY EQUIPMENT
+	# Mortars/Infantry Guns
+	mortar0 = {
+		category = mortar_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	mortar1 = {
+		category = mortar_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	mortar2 = {
+		category = mortar_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	mortar3 = {
+		category = mortar_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	mortar4 = {
+		category = mortar_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	# MANPADS
+
+	manpads0 = {
+		category = manpads_type
+
+		add_stats = {
+			air_attack = 3
+			air_defence = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	manpads1 = {
+		category = manpads_type
+
+		add_stats = {
+			air_attack = 3
+			air_defence = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	manpads2 = {
+		category = manpads_type
+
+		add_stats = {
+			air_attack = 3
+			air_defence = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	# HMGs
+
+	hmg0 = {
+		category = heavy_machine_gun_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	hmg1 = {
+		category = heavy_machine_gun_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	hmg2 = {
+		category = heavy_machine_gun_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	hmg3 = {
+		category = heavy_machine_gun_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	hmg4 = {
+		category = heavy_machine_gun_type
+
+		add_stats = {
+			soft_attack = 3
+			breakthrough = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	# Rocket Launchers/Handheld AT Weapons/ATGMs
+
+	handheld_at0 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	handheld_at1 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	handheld_at2 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	rocket_launcher0 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	rocket_launcher1 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	rocket_launcher2 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	rocket_launcher3 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	atgm0 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	atgm1 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+	atgm2 = {
+		category = rocket_launcher_type
+
+		add_stats = {
+			hard_attack = 3
+			ap_attack = 1
+			reliability = 0.9
+			build_cost_ic = 0.23
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {
+			# TODO
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 		
 	# Fire Support
 	 # Attack
@@ -307,59 +1080,7 @@ equipment_modules = {
 			steel = 1
 		}
 	 }
-	# Presonal Protective
-	 minimum_protective = {
-		category = infantry_personal_protective
-
-		add_stats = {
-			maximum_speed = 1
-			#Defensive Abilities
-			 defense = 1
-			#Misc Abilities
-			 build_cost_ic = 0.01
-		}
-
-		xp_cost = 0
-	 }
-
-	 pistol_protective = {
-		category = infantry_personal_protective
-		parent = minimum_protective
-
-		add_stats = {
-			#Defensive Abilities
-			 defense = 3
-			 armor_value = 1
-			 hardness = 0.05
-			#Misc Abilities
-			 build_cost_ic = 0.05
-			 weight = 0.1
-		}
-
-		xp_cost = 3
-	 }
-
-	 saper_protective = {
-		category = infantry_personal_protective
-		parent = pistol_protective
-
-		add_stats = {
-			maximum_speed = -0.5
-
-			#Defensive Abilities
-			 defense = 4
-			 armor_value = 3
-			 hardness = 0.1
-			#Misc Abilities
-			 build_cost_ic = 0.15
-			 weight = 0.15
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-
-		xp_cost = 5
-	 }
+	
 	# Special Modules
 	 # Individual
 	  bandaging_package = {
