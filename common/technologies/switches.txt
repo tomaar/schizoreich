@@ -3,6 +3,7 @@ technologies = {
 
 		enable_equipments = {
 			custom_infantry_equipment_0
+			medium_tank_chassis_0
 		}
 
 		enable_equipment_modules = {
@@ -51,6 +52,25 @@ technologies = {
 			atgm0	
 			atgm1
 			atgm2
+			no_engineering_tools
+			basic_engineering_tools
+			defensive_engineering_tools
+			assault_engineering_tools
+			communication_equipment0
+			communication_equipment1	
+			communication_equipment2
+			communication_equipment3
+			communication_equipment4
+			no_transport
+			horse_transport
+			bicycle_transport
+			motorcycle_transport	
+			light_vehicle_transport
+			medical_tools0	
+			medical_tools1
+			medical_tools2
+			medical_tools3
+			medical_tools4
 		}
 		
 		enable_subunits = {
@@ -111,6 +131,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0
+		}
+
+		enable_equipments = {
+			custom_infantry_equipment_1
 		}
 	}
 

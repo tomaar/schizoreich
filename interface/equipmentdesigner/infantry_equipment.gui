@@ -9,7 +9,16 @@ guiTypes = {
 			spriteType = "GFX_TC_custom_infantry_equipment"
 			position = { x=0 y=0 }
 		}
+	}
+	containerWindowType = {
+		name = "equipment_designer_special_forces_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
 
-		# removed module slots from here because i don't think they're necessary here, see common/units/equipment
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_special_forces_equipment"
+			position = { x=0 y=0 }
+		}
 	}
 }

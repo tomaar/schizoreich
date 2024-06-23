@@ -1,0 +1,14 @@
+
+duplicate_archetypes = {
+	special_forces_equipment = {
+		archetype = custom_infantry_equipment
+		type = { armor }
+		for_each = {
+			maximum_speed = { set = 10 }
+		}
+	}
+}
+
+equipments = {
+	# todo, maybe
+}

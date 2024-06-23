@@ -11,55 +11,6 @@ equipments = {
 		interface_category = interface_category_land
 		group_by = archetype
 
-		module_count_limit = {
-			module = bandaging_package
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = sapper_shovels
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = additional_grenades
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = additional_ammo
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = sniper_support
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = night_vision_device
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = binoculars
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = gun_grease
-			count < 2
-		}	
-
-		module_count_limit = {
-			module = molotov_cocktail
-			count < 2
-		}	
-		module_count_limit = {
-			module = flame_support
-			count < 2
-		}	
-
 		module_slots = {
 			small_arms_slot = {
 				required = yes
@@ -85,24 +36,24 @@ equipments = {
 				}
 			}
 
-			something_else_slot = {
-				required = no
+			communication_equipment_slot = {
+				required = yes
 				allowed_module_categories = {
-					something_else_type
+					communication_equipment_type
 				}
 			}
 
-			something_else2_slot = {
-				required = no
+			transport_equipment_slot = {
+				required = yes
 				allowed_module_categories = {
-					something_else_type
+					transport_equipment_type
 				}
 			}
 
-			something_else3_slot = {
-				required = no
+			medical_tools_slot = {
+				required = yes
 				allowed_module_categories = {
-					something_else_type
+					medical_tools_type
 				}
 			}
 
@@ -185,8 +136,8 @@ equipments = {
 		priority = 2000
 		
 		#Misc Abilities
-		 lend_lease_cost = 1
-		 maximum_speed = 5
+			lend_lease_cost = 1
+			maximum_speed = 5
 	}
 
 	custom_infantry_equipment_0 = {
