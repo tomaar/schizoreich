@@ -100,7 +100,7 @@ equipment_modules = {
 
 	flamethrower = {
 		abbreviation = "flt"
-		category = tank_medium_main_armament
+		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -433,14 +433,9 @@ equipment_modules = {
 
 	tank_no_turret = {
 		abbreviation = "no_tur"
-		category = tank_turret_type
+		category = tank_turret_small_type
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_small_main_armament
-			}
-		}
 		dismantle_cost_ic = 1
 		xp_cost = 2
 		add_stats = {
@@ -456,12 +451,11 @@ equipment_modules = {
 
 	tank_unmanned_turret = {
 		abbreviation = "unman_tur"
-		category = tank_turret_type
+		category = tank_turret_medium_type
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_small_main_armament
 				tank_medium_main_armament
 			}
 		}
@@ -480,12 +474,11 @@ equipment_modules = {
 
 	tank_manned_turret = {
 		abbreviation = "man_tur"
-		category = tank_turret_type
+		category = tank_turret_large_type
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_small_main_armament
 				tank_medium_main_armament
 				tank_heavy_main_armament
 			}
@@ -505,12 +498,11 @@ equipment_modules = {
 
 	tank_casemate_turret = {
 		abbreviation = "case_tur"
-		category = tank_turret_type
+		category = tank_turret_large_type
 		sfx = sfx_ui_sd_module_turret
 
 		allowed_module_categories = {
 			main_armament_slot = {
-				tank_small_main_armament
 				tank_medium_main_armament
 				tank_heavy_main_armament
 			}
@@ -550,17 +542,6 @@ equipment_modules = {
 	}
 
 	# Stabiliser
-	no_stabiliser = {
-		abbreviation = "no_stab"
-		category = tank_stabiliser_type
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 0
-		}
-		dismantle_cost_ic = 0
-		xp_cost = 1
-	}
 
 	crude_stabiliser = {
 		abbreviation = "crude_stab"

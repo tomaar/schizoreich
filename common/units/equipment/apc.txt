@@ -10,13 +10,95 @@ equipments = {
 		group_by = mechanized
 
 		module_slots = {
-			small_arms_slot = {
+			propulsion_slot = {
 				required = yes
 				allowed_module_categories = {
-					bolt_action_type
-					carbine_type
-					assault_rifle_type
-					submachine_gun_type
+					tank_engine_type
+				}
+			}
+			suspension_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+			armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+			tank_construction_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_construction_type
+				}
+			}
+			tank_battlestation_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_battlestation_type
+				}
+			}
+			tank_stabiliser_type = {
+				required = yes
+				allowed_module_categories = {
+					tank_stabiliser_type
+				}
+			}
+
+			turret_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_turret_small_type
+				}
+			}
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+				}
+			}
+			big_secondary_armament_slot1 = {
+				required = yes
+				allowed_module_categories = {
+					tank_secondary_weaponry
+				}
+			}
+			big_secondary_armament_slot2 = {
+				required = yes
+				allowed_module_categories = {
+					tank_secondary_weaponry
+				}
+			}
+			small_secondary_armament_slot1 = {
+				required = yes
+				allowed_module_categories = {
+					tank_additional_weaponry
+				}
+			}
+			small_secondary_armament_slot2 = {
+				required = yes
+				allowed_module_categories = {
+					tank_additional_weaponry
+				}
+			}
+			small_secondary_armament_slot3 = {
+				required = yes
+				allowed_module_categories = {
+					tank_additional_weaponry
+				}
+			}
+			special_slot_1 = {
+				required = yes
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			special_slot_2 = {
+				required = yes
+				allowed_module_categories = {
+					tank_special_module
 				}
 			}
 		}
