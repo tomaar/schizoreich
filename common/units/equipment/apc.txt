@@ -1,0 +1,52 @@
+equipments = {
+	apc_equipment = {
+		year = 1936
+		is_archetype = yes
+
+		picture = archetype_custom_infantry_equipment
+		is_buildable = no
+		type = armor
+		interface_category = interface_category_land
+		group_by = mechanized
+
+		module_slots = {
+			small_arms_slot = {
+				required = yes
+				allowed_module_categories = {
+					bolt_action_type
+					carbine_type
+					assault_rifle_type
+					submachine_gun_type
+				}
+			}
+		}
+
+		active = yes
+		priority = 2000
+		
+		
+		lend_lease_cost = 1
+		maximum_speed = 5
+	}
+
+	apc_equipment_0 = {
+		year = 1936
+		archetype = apc_equipment
+		module_slots = inherit
+
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	apc_equipment_1 = {
+		year = 1936
+		parent = apc_equipment_0
+		archetype = apc_equipment
+		module_slots = inherit
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+}

@@ -21,4 +21,26 @@ guiTypes = {
 			position = { x=0 y=0 }
 		}
 	}
+	containerWindowType = {
+		name = "equipment_designer_apc_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_apc_equipment"
+			position = { x=0 y=0 }
+		}
+	}
+	containerWindowType = {
+		name = "equipment_designer_ifv_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_ifv_equipment"
+			position = { x=0 y=0 }
+		}
+	}
 }
