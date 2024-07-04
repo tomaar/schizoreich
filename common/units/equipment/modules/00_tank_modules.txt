@@ -2,7 +2,23 @@ equipment_modules = {
 
 	# Propulsion
 
-	tank_gasoline_engine = {
+	tank_steam_engine = {
+		abbreviation = "steam"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 1
+			fuel_consumption = 2
+			maximum_speed = 0.5
+		}
+		multiply_stats = {
+			maximum_speed = 0.15
+		}
+
+	}
+
+	tank_gasoline_engine1 = {
 		abbreviation = "gas"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
@@ -775,8 +791,24 @@ equipment_modules = {
 		xp_cost = 1
 	}
 	
-	expanded_fuel_tank = {
+	external_fuel_tank = {
 		abbreviation = "fuel"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 100
+			build_cost_ic = 1
+			maximum_speed = -0.25
+		}
+		xp_cost = 3
+		multiply_stats = {
+			
+		}
+	}
+	
+	era_armor = { # Explosive Reactive Armor...Armor
+		abbreviation = "era"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 

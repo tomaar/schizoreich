@@ -136,6 +136,12 @@ technology_folders = {
 	switch_folder = {
 		ledger = hidden
 	}
+	armour_chassis_folder = {
+		ledger = hidden
+	}
+	armour_modules_folder = {
+		ledger = hidden
+	}
 	land_doctrine_folder = {
 		ledger = army
 		doctrine = yes
