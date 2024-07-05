@@ -15,7 +15,7 @@ technologies = {
 
 		folder = {
 			name = armour_modules_folder
-			position = { x = 5 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 	}
 
@@ -27,9 +27,642 @@ technologies = {
 
 		research_cost = 0
 		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_gasoline_engine2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_tank_diesel_engine1
+			research_cost_coeff = 1
+		}
+
 		folder = {
 			name = armour_modules_folder
-			position = { x = 7 y = 0 }
+			position = { x = 0 y = 2 }
+		}
+	}
+
+	tech_tank_gasoline_engine2 = {
+
+		enable_equipment_modules = {
+			tank_gasoline_engine2
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_gasoline_engine3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_tank_petrol_electric_engine2
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 4 }
+		}
+	}
+
+	tech_tank_gasoline_engine3 = {
+
+		enable_equipment_modules = {
+			tank_gasoline_engine3
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 6 }
+		}
+	}
+
+	tech_tank_petrol_electric_engine2 = {
+
+		enable_equipment_modules = {
+			tank_petrol_electric_engine2
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_petrol_electric_engine3
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 4 }
+		}
+	}
+
+	tech_tank_petrol_electric_engine3 = {
+
+		enable_equipment_modules = {
+			tank_petrol_electric_engine3
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_petrol_electric_engine4
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 6 }
+		}
+	}
+
+	tech_tank_petrol_electric_engine4 = {
+
+		enable_equipment_modules = {
+			tank_petrol_electric_engine4
+		}
+
+		path = {
+			leads_to_tech = tech_tank_petrol_electric_engine5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 8 }
+		}
+	}
+
+	tech_tank_petrol_electric_engine5 = {
+
+		enable_equipment_modules = {
+			tank_petrol_electric_engine5
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 10 }
+		}
+	}
+
+	tech_tank_diesel_engine1 = {
+
+		enable_equipment_modules = {
+			tank_diesel_engine1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_diesel_engine2
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 2 }
+		}
+	}
+
+	tech_tank_diesel_engine2 = {
+
+		enable_equipment_modules = {
+			tank_diesel_engine2
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_diesel_engine3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_tank_gas_turbine_engine2
+			research_cost_coeff = 1
+		}
+		
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 4 }
+		}
+	}
+
+	tech_tank_diesel_engine3 = {
+
+		enable_equipment_modules = {
+			tank_diesel_engine3
+		}
+
+		path = {
+			leads_to_tech = tech_tank_diesel_engine4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 6 }
+		}
+	}
+
+	tech_tank_diesel_engine4 = {
+
+		enable_equipment_modules = {
+			tank_diesel_engine4
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 8 }
+		}
+	}
+
+	tech_tank_gas_turbine_engine2 = {
+
+		enable_equipment_modules = {
+			tank_gas_turbine_engine2
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_gas_turbine_engine3
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 4 }
+		}
+	}
+
+	tech_tank_gas_turbine_engine3 = {
+
+		enable_equipment_modules = {
+			tank_gas_turbine_engine3
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_gas_turbine_engine4
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 6 }
+		}
+	}
+
+	tech_tank_gas_turbine_engine4 = {
+
+		enable_equipment_modules = {
+			tank_gas_turbine_engine4
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_gas_turbine_engine5
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 8 }
+		}
+	}
+
+	tech_tank_gas_turbine_engine5 = {
+
+		enable_equipment_modules = {
+			tank_gas_turbine_engine5
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 10 }
+		}
+	}
+
+	tech_tank_riveted_armor = {
+
+		enable_equipment_modules = {
+			tank_riveted_armor
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_welded_armor1
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	tech_tank_welded_armor1 = {
+
+		enable_equipment_modules = {
+			tank_welded_armor
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_welded_armor2
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 0 }
+		}
+	}
+
+	tech_tank_welded_armor2 = {
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_welded_armor3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_tank_cast_armor
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 2 }
+		}
+	}
+
+	tech_tank_welded_armor3 = {
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_welded_armor4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_era_armor1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_tank_spaced_armor1
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 4 }
+		}
+	}
+
+	tech_tank_welded_armor4 = {
+		research_cost = 0
+		start_year = 1936
+
+		path = {
+			leads_to_tech = tech_tank_welded_armor5
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 6 }
+		}
+	}
+
+	tech_tank_welded_armor5 = {
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = 8 }
+		}
+	}
+
+	tech_tank_cast_armor = {
+
+		enable_equipment_modules = {
+			tank_cast_armor
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 2 }
+		}
+	}
+
+	tech_era_armor1 = {
+
+		enable_equipment_modules = {
+			era_armor1
+		}
+
+		path = {
+			leads_to_tech = tech_era_armor2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 4 }
+		}
+	}
+
+	tech_era_armor2 = {
+
+		enable_equipment_modules = {
+			era_armor2
+		}
+
+		path = {
+			leads_to_tech = tech_era_armor3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 6 }
+		}
+	}
+
+	tech_era_armor3 = {
+
+		enable_equipment_modules = {
+			era_armor3
+		}
+
+		path = {
+			leads_to_tech = tech_era_armor4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 8 }
+		}
+	}
+
+	tech_era_armor4 = {
+
+		enable_equipment_modules = {
+			era_armor4
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = 10 }
+		}
+	}
+
+	tech_tank_spaced_armor1 = {
+
+		enable_equipment_modules = {
+			tank_spaced_armor1
+		}
+
+		path = {
+			leads_to_tech = tech_tank_spaced_armor2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 4 }
+		}
+	}
+
+	tech_tank_spaced_armor2 = {
+
+		enable_equipment_modules = {
+			tank_spaced_armor2
+		}
+
+		path = {
+			leads_to_tech = tech_tank_spaced_armor3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_tank_composite_armor1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 6 }
+		}
+	}
+
+	tech_tank_spaced_armor3 = {
+
+		enable_equipment_modules = {
+			tank_spaced_armor3
+		}
+
+		path = {
+			leads_to_tech = tech_tank_spaced_armor4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 8 }
+		}
+	}
+
+	tech_tank_spaced_armor4 = {
+
+		enable_equipment_modules = {
+			tank_spaced_armor4
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = 10 }
+		}
+	}
+
+	tech_tank_composite_armor1 = {
+
+		enable_equipment_modules = {
+			tank_composite_armor1
+		}
+
+		path = {
+			leads_to_tech = tech_tank_composite_armor2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 6 }
+		}
+	}
+
+	tech_tank_composite_armor2 = {
+
+		enable_equipment_modules = {
+			tank_composite_armor2
+		}
+
+		path = {
+			leads_to_tech = tech_tank_composite_armor3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 8 }
+		}
+	}
+
+	tech_tank_composite_armor3 = {
+
+		enable_equipment_modules = {
+			tank_composite_armor3
+		}
+
+		path = {
+			leads_to_tech = tech_tank_composite_armor4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 10 }
+		}
+	}
+
+	tech_tank_composite_armor4 = {
+
+		enable_equipment_modules = {
+			tank_composite_armor4
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = 12 }
 		}
 	}
 }
