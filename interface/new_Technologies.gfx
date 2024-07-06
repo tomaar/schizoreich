@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/tank_equipment_0.dds"
+	}
+}

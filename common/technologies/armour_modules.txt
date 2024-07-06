@@ -1,5 +1,5 @@
 technologies = {
-	tech_tank_steam_engine = {
+	tank_steam_engine = {
 
 		enable_equipment_modules = {
 			tank_steam_engine
@@ -9,7 +9,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gasoline_engine1
+			leads_to_tech = tank_gasoline_engine1
 			research_cost_coeff = 1
 		}
 
@@ -19,7 +19,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gasoline_engine1 = {
+	tank_gasoline_engine1 = {
 
 		enable_equipment_modules = {
 			tank_gasoline_engine1
@@ -29,12 +29,12 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gasoline_engine2
+			leads_to_tech = tank_gasoline_engine2
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = tech_tank_diesel_engine1
+			leads_to_tech = tank_diesel_engine1
 			research_cost_coeff = 1
 		}
 
@@ -44,7 +44,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gasoline_engine2 = {
+	tank_gasoline_engine2 = {
 
 		enable_equipment_modules = {
 			tank_gasoline_engine2
@@ -54,12 +54,12 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gasoline_engine3
+			leads_to_tech = tank_gasoline_engine3
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = tech_tank_petrol_electric_engine2
+			leads_to_tech = tank_petrol_electric_engine2
 			research_cost_coeff = 1
 		}
 
@@ -70,7 +70,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gasoline_engine3 = {
+	tank_gasoline_engine3 = {
 
 		enable_equipment_modules = {
 			tank_gasoline_engine3
@@ -85,7 +85,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_petrol_electric_engine2 = {
+	tank_petrol_electric_engine2 = {
 
 		enable_equipment_modules = {
 			tank_petrol_electric_engine2
@@ -95,7 +95,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_petrol_electric_engine3
+			leads_to_tech = tank_petrol_electric_engine3
 			research_cost_coeff = 1
 		}
 
@@ -105,7 +105,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_petrol_electric_engine3 = {
+	tank_petrol_electric_engine3 = {
 
 		enable_equipment_modules = {
 			tank_petrol_electric_engine3
@@ -115,7 +115,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_petrol_electric_engine4
+			leads_to_tech = tank_petrol_electric_engine4
 			research_cost_coeff = 1
 		}
 
@@ -125,14 +125,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_petrol_electric_engine4 = {
+	tank_petrol_electric_engine4 = {
 
 		enable_equipment_modules = {
 			tank_petrol_electric_engine4
 		}
 
 		path = {
-			leads_to_tech = tech_tank_petrol_electric_engine5
+			leads_to_tech = tank_petrol_electric_engine5
 			research_cost_coeff = 1
 		}
 
@@ -145,7 +145,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_petrol_electric_engine5 = {
+	tank_petrol_electric_engine5 = {
 
 		enable_equipment_modules = {
 			tank_petrol_electric_engine5
@@ -160,7 +160,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_diesel_engine1 = {
+	tank_diesel_engine1 = {
 
 		enable_equipment_modules = {
 			tank_diesel_engine1
@@ -170,7 +170,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_diesel_engine2
+			leads_to_tech = tank_diesel_engine2
 			research_cost_coeff = 1
 		}
 
@@ -180,7 +180,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_diesel_engine2 = {
+	tank_diesel_engine2 = {
 
 		enable_equipment_modules = {
 			tank_diesel_engine2
@@ -190,11 +190,11 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_diesel_engine3
+			leads_to_tech = tank_diesel_engine3
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_tank_gas_turbine_engine2
+			leads_to_tech = tank_gas_turbine_engine2
 			research_cost_coeff = 1
 		}
 		
@@ -205,14 +205,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_diesel_engine3 = {
+	tank_diesel_engine3 = {
 
 		enable_equipment_modules = {
 			tank_diesel_engine3
 		}
 
 		path = {
-			leads_to_tech = tech_tank_diesel_engine4
+			leads_to_tech = tank_diesel_engine4
 			research_cost_coeff = 1
 		}
 
@@ -225,7 +225,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_diesel_engine4 = {
+	tank_diesel_engine4 = {
 
 		enable_equipment_modules = {
 			tank_diesel_engine4
@@ -240,17 +240,21 @@ technologies = {
 		}
 	}
 
-	tech_tank_gas_turbine_engine2 = {
+	tank_gas_turbine_engine2 = {
 
 		enable_equipment_modules = {
 			tank_gas_turbine_engine2
+		}
+
+		enable_equipments = {
+			tank_equipment_0
 		}
 
 		research_cost = 0
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gas_turbine_engine3
+			leads_to_tech = tank_gas_turbine_engine3
 			research_cost_coeff = 1
 		}
 
@@ -260,7 +264,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gas_turbine_engine3 = {
+	tank_gas_turbine_engine3 = {
 
 		enable_equipment_modules = {
 			tank_gas_turbine_engine3
@@ -270,7 +274,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gas_turbine_engine4
+			leads_to_tech = tank_gas_turbine_engine4
 			research_cost_coeff = 1
 		}
 
@@ -280,7 +284,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gas_turbine_engine4 = {
+	tank_gas_turbine_engine4 = {
 
 		enable_equipment_modules = {
 			tank_gas_turbine_engine4
@@ -290,7 +294,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_gas_turbine_engine5
+			leads_to_tech = tank_gas_turbine_engine5
 			research_cost_coeff = 1
 		}
 
@@ -300,7 +304,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_gas_turbine_engine5 = {
+	tank_gas_turbine_engine5 = {
 
 		enable_equipment_modules = {
 			tank_gas_turbine_engine5
@@ -315,7 +319,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_riveted_armor = {
+	tank_riveted_armor = {
 
 		enable_equipment_modules = {
 			tank_riveted_armor
@@ -325,7 +329,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_welded_armor1
+			leads_to_tech = tank_welded_armor1
 			research_cost_coeff = 1
 		}
 
@@ -335,7 +339,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_welded_armor1 = {
+	tank_welded_armor1 = {
 
 		enable_equipment_modules = {
 			tank_welded_armor
@@ -345,7 +349,7 @@ technologies = {
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_welded_armor2
+			leads_to_tech = tank_welded_armor2
 			research_cost_coeff = 1
 		}
 
@@ -355,16 +359,16 @@ technologies = {
 		}
 	}
 
-	tech_tank_welded_armor2 = {
+	tank_welded_armor2 = {
 		research_cost = 0
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_welded_armor3
+			leads_to_tech = tank_welded_armor3
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_tank_cast_armor
+			leads_to_tech = tank_cast_armor
 			research_cost_coeff = 1
 		}
 
@@ -374,20 +378,20 @@ technologies = {
 		}
 	}
 
-	tech_tank_welded_armor3 = {
+	tank_welded_armor3 = {
 		research_cost = 0
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_welded_armor4
+			leads_to_tech = tank_welded_armor4
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_era_armor1
+			leads_to_tech = era_armor1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_tank_spaced_armor1
+			leads_to_tech = tank_spaced_armor1
 			research_cost_coeff = 1
 		}
 
@@ -397,12 +401,12 @@ technologies = {
 		}
 	}
 
-	tech_tank_welded_armor4 = {
+	tank_welded_armor4 = {
 		research_cost = 0
 		start_year = 1936
 
 		path = {
-			leads_to_tech = tech_tank_welded_armor5
+			leads_to_tech = tank_welded_armor5
 			research_cost_coeff = 1
 		}
 
@@ -412,7 +416,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_welded_armor5 = {
+	tank_welded_armor5 = {
 		research_cost = 0
 		start_year = 1936
 
@@ -422,7 +426,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_cast_armor = {
+	tank_cast_armor = {
 
 		enable_equipment_modules = {
 			tank_cast_armor
@@ -437,14 +441,14 @@ technologies = {
 		}
 	}
 
-	tech_era_armor1 = {
+	era_armor1 = {
 
 		enable_equipment_modules = {
 			era_armor1
 		}
 
 		path = {
-			leads_to_tech = tech_era_armor2
+			leads_to_tech = era_armor2
 			research_cost_coeff = 1
 		}
 
@@ -457,14 +461,14 @@ technologies = {
 		}
 	}
 
-	tech_era_armor2 = {
+	era_armor2 = {
 
 		enable_equipment_modules = {
 			era_armor2
 		}
 
 		path = {
-			leads_to_tech = tech_era_armor3
+			leads_to_tech = era_armor3
 			research_cost_coeff = 1
 		}
 
@@ -477,14 +481,14 @@ technologies = {
 		}
 	}
 
-	tech_era_armor3 = {
+	era_armor3 = {
 
 		enable_equipment_modules = {
 			era_armor3
 		}
 
 		path = {
-			leads_to_tech = tech_era_armor4
+			leads_to_tech = era_armor4
 			research_cost_coeff = 1
 		}
 
@@ -497,7 +501,7 @@ technologies = {
 		}
 	}
 
-	tech_era_armor4 = {
+	era_armor4 = {
 
 		enable_equipment_modules = {
 			era_armor4
@@ -512,14 +516,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_spaced_armor1 = {
+	tank_spaced_armor1 = {
 
 		enable_equipment_modules = {
 			tank_spaced_armor1
 		}
 
 		path = {
-			leads_to_tech = tech_tank_spaced_armor2
+			leads_to_tech = tank_spaced_armor2
 			research_cost_coeff = 1
 		}
 
@@ -532,18 +536,18 @@ technologies = {
 		}
 	}
 
-	tech_tank_spaced_armor2 = {
+	tank_spaced_armor2 = {
 
 		enable_equipment_modules = {
 			tank_spaced_armor2
 		}
 
 		path = {
-			leads_to_tech = tech_tank_spaced_armor3
+			leads_to_tech = tank_spaced_armor3
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_tank_composite_armor1
+			leads_to_tech = tank_composite_armor1
 			research_cost_coeff = 1
 		}
 
@@ -556,14 +560,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_spaced_armor3 = {
+	tank_spaced_armor3 = {
 
 		enable_equipment_modules = {
 			tank_spaced_armor3
 		}
 
 		path = {
-			leads_to_tech = tech_tank_spaced_armor4
+			leads_to_tech = tank_spaced_armor4
 			research_cost_coeff = 1
 		}
 
@@ -576,7 +580,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_spaced_armor4 = {
+	tank_spaced_armor4 = {
 
 		enable_equipment_modules = {
 			tank_spaced_armor4
@@ -591,14 +595,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_composite_armor1 = {
+	tank_composite_armor1 = {
 
 		enable_equipment_modules = {
 			tank_composite_armor1
 		}
 
 		path = {
-			leads_to_tech = tech_tank_composite_armor2
+			leads_to_tech = tank_composite_armor2
 			research_cost_coeff = 1
 		}
 
@@ -611,14 +615,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_composite_armor2 = {
+	tank_composite_armor2 = {
 
 		enable_equipment_modules = {
 			tank_composite_armor2
 		}
 
 		path = {
-			leads_to_tech = tech_tank_composite_armor3
+			leads_to_tech = tank_composite_armor3
 			research_cost_coeff = 1
 		}
 
@@ -631,14 +635,14 @@ technologies = {
 		}
 	}
 
-	tech_tank_composite_armor3 = {
+	tank_composite_armor3 = {
 
 		enable_equipment_modules = {
 			tank_composite_armor3
 		}
 
 		path = {
-			leads_to_tech = tech_tank_composite_armor4
+			leads_to_tech = tank_composite_armor4
 			research_cost_coeff = 1
 		}
 
@@ -651,7 +655,7 @@ technologies = {
 		}
 	}
 
-	tech_tank_composite_armor4 = {
+	tank_composite_armor4 = {
 
 		enable_equipment_modules = {
 			tank_composite_armor4

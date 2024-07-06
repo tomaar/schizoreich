@@ -376,6 +376,14 @@ guiTypes = {
 					position = { x=0 y=0 }
 				}
 			}
+			
+			gridboxtype = {
+				name = "tank_equipment_tree"
+				position = { x = 200 y = 150 }
+				size = { width = 72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {
@@ -409,7 +417,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "tech_tank_steam_engine_tree"
+				name = "tank_steam_engine_tree"
 				position = { x = 200 y = 150 }
 				size = { width = 72 height = 650 }
 				slotsize = { width = 70 height = 70 }
@@ -417,7 +425,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "tech_tank_riveted_armor_tree"
+				name = "tank_riveted_armor_tree"
 				position = { x = 800 y = 150 }
 				size = { width = 72 height = 650 }
 				slotsize = { width = 70 height = 70 }

@@ -1,0 +1,16 @@
+technologies = {
+	tank_equipment = {
+
+		enable_equipments = {
+			tank_equipment_0
+		}
+
+		research_cost = 0
+		start_year = 1936
+
+		folder = {
+			name = armour_chassis_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+}
