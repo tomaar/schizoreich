@@ -131,4 +131,15 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
+
+	apc_equipment_2 = {
+		year = 1936
+		parent = apc_equipment_1
+		archetype = apc_equipment
+		module_slots = inherit
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
 }

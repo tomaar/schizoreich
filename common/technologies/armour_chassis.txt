@@ -1,8 +1,8 @@
 technologies = {
-	tank_equipment = {
+	apc_equipment_0 = {
 
 		enable_equipments = {
-			tank_equipment_0
+			apc_equipment_0
 		}
 
 		research_cost = 0
